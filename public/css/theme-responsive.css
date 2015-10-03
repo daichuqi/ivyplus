@@ -1,0 +1,1987 @@
+/*------------------------------------------------------------------
+Project:	Vectus Html Template - Responsive 
+Version:	1.1
+Last change:	14/05/15 [fixed Float bug, vf]
+Author:	Janxcode
+/*------------------------------------------------------------------
+/* Note: Design for a width 1024 Desktop
+================================================== */
+	@media only screen and (min-width: 960px) and (max-width: 1199px) {
+
+
+	/*---------------------------------------------------------------
+		[4.0 Speckers ]
+	---------------------------------------------------------------*/
+	
+	.jx-speaker-details .jx-speaker-social ul li i {
+		margin-right: 8px;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 18px;
+	 }
+	
+	/*---------------------------------------------------------------
+		[7.0  Header ]
+	---------------------------------------------------------------*/
+		
+	
+		
+		
+	/*---------------------------------------------------------------
+		[8.0  Slider ]
+	---------------------------------------------------------------*/
+	
+		.line-icon {
+			font-size: 35px;
+			padding: 5px;
+		}
+		
+		.jx-info-content .info-title {
+			font-size: 14px;
+		}
+	
+		.jx-info-content .info-description {
+			font-size: 14px;
+		}
+
+		.jx-event-box {
+			left: 45%;		
+		}
+		
+		.jx-event-title-box .jx-event-pretitle {
+			font-size: 30px;
+		}
+		
+		.jx-event-title-box .jx-event-title {
+			font-size: 50px;
+		}
+		
+		.jx-event-title-box .jx-event-location {
+			font-size: 25px;
+			line-height: 2;
+		}
+		
+		
+
+
+	/*---------------------------------------------------------------
+		[9.0  According ]
+	---------------------------------------------------------------*/
+	
+	
+		.jx-event-schedule .right-position {
+			width: 830px;
+		}
+	
+	
+	/*---------------------------------------------------------------
+		[10.0  Tabs ]
+	---------------------------------------------------------------*/
+
+	
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li {
+			width:32.5%;
+		}
+		
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[11.0  Ticket Form  ]
+	---------------------------------------------------------------*/
+		
+
+		
+		.jx-ticket-form h1 {
+ 		 	font-size: 32px;
+		}
+		
+		.jx-ticket-form .jx-ticket-type {
+			width:46%;
+		}
+		
+		.jx-countdown-form .jx-ticket-form {
+			height: 410px;
+		}
+		
+		.jx-ticket-form, .jx-countdown-box {
+ 		 	padding: 40px 40px 0px 40px;
+		}
+		
+
+		/*------------- Form ---------------*/
+
+		.jx-countdown-form .jx-countdown-box h1 {
+ 		   font-size: 32px;
+		}
+		.jx-countdown .counter-wrapper ul {
+			margin:0px;
+			padding:0px;
+			padding-top:20px;
+		}		
+		.jx-countdown .counter-wrapper li {
+			margin-right: 4px;
+			margin-top: 0px;
+			margin-left: 4px;
+			height:80px;
+			width:80px;
+			padding:0px;
+		}
+		
+		.jx-countdown .counter-wrapper li .count {
+			font-size:25px;
+		}
+		
+		.jx-countdown .counter-wrapper li .count-text {
+			font-size:18px;
+		}
+		
+		.jx-countdown-form .jx-countdown-box {
+			height:408px;
+		}
+		
+		
+		/*------------- Count Down---------------*/
+		
+		
+		
+	/*---------------------------------------------------------------
+		[13.0  Price Table  ]
+	---------------------------------------------------------------*/
+		
+		
+		.jx-price-table .jx-price-item .jx-price {
+			font-size: 75px;
+			padding: 20px 20px 0px;
+			line-height: 95px;
+		}
+
+		.jx-price-table .jx-price-item .jx-package-name {
+			font-size: 30px;
+			margin-bottom: 25px;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[16.0  FAQ BOX  ]
+	---------------------------------------------------------------*/
+
+		.jx-faq-description p {
+			font-size: 15px;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[17.0  Interactive Map  ]
+	---------------------------------------------------------------*/
+
+		
+		.jx-map-company > ul > li {
+			width: 24.9%;
+		}
+
+		.jx-single-point:nth-of-type(3) {
+			top: 25%;
+		}
+		
+		.jx-single-point:nth-of-type(1) {
+ 		   bottom: 50%;
+		 }
+ 
+		 .jx-single-point:nth-of-type(2) {
+			bottom: 38%;
+		}
+		
+
+
+	}
+	
+/* #Tablet (Portrait)
+================================================== */
+ 
+    /* Note: Design for a width of 768px */
+ 
+    @media only screen and (min-width: 768px) and (max-width: 959px) {	
+	
+	
+		/*---------------------------------------------------------------
+		[1.0 Footer ]
+	---------------------------------------------------------------*/
+	
+	.jx-footer-social li i {
+		width: 60px;
+		height: 60px;
+		line-height: 62px;
+		font-size: 25px;
+	}
+	
+
+	/*---------------------------------------------------------------
+		[2.0 Services ]
+	---------------------------------------------------------------*/
+		
+		.jx-servicebox-1 .jx-service-item .service-description p {
+			padding: 0px 0px;
+		}
+		
+		/*--------Services style #1-------*/
+
+
+	/*---------------------------------------------------------------
+		[3.0 Media Center ]
+	---------------------------------------------------------------*/
+
+		.jx-media-center .title {
+			font-size: 18px;
+		}
+		
+		.jx-media-center .date {
+			font-size: 16px;
+		}
+		
+		.jx-media-center .date span {
+			padding-right: 10px;
+		}
+		
+		.jx-media-center .date i {
+		    padding: 0px 2px 0px 0px;
+		}
+	
+	
+	/*---------------------------------------------------------------
+		[4.0 Speckers ]
+	---------------------------------------------------------------*/
+		
+		.jx-speakers .four.columns {
+			width:360px;
+		 }
+		 
+		 .jx-speakers img {
+			width:100%;
+		 }
+		 
+		 .jx-speakers .jx-speaker-item {
+		 	padding-bottom:40px;
+		 }
+		 
+			 
+	/*---------------------------------------------------------------
+		[5.0  Countup ]
+	---------------------------------------------------------------*/
+
+		.jx-countup .count-item .count-text {
+			font-size: 20px;
+		}
+		
+		.jx-countup .count-item .count-number {
+			font-size: 40px;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[6.0  Section Title ]
+	---------------------------------------------------------------*/
+
+		
+		.jx-section-title-1 .jx-title {
+		    font-size: 35px;
+		}
+		
+		
+		
+	/*---------------------------------------------------------------
+		[7.0  Header ]
+	---------------------------------------------------------------*/
+	
+	
+	
+	
+	/*---------------------------------------------------------------
+		[8.0  Slider ]
+	---------------------------------------------------------------*/
+	
+		.line-icon {
+			font-size: 20px;
+			padding: 4px;
+		}
+		
+		.jx-info-content .info-title {
+			font-size: 14px;
+		}
+	
+		.jx-info-content .info-description {
+			font-size: 12px;
+		}
+		
+
+
+		.jx-event-box {
+			left: 45%;		
+		}
+		
+		.jx-event-title-box .jx-event-pretitle {
+			font-size: 30px;
+		}
+		
+		.jx-event-title-box .jx-event-title {
+			font-size: 50px;
+		}
+		
+		.jx-event-title-box .jx-event-location {
+			font-size: 25px;
+			line-height: 2;
+		}
+		
+		
+		
+		
+	/*---------------------------------------------------------------
+		[9.0  According ]
+	---------------------------------------------------------------*/
+	
+	
+		.jx-event-schedule .right-position {
+			width: 630px;
+		}
+	
+	
+	/*---------------------------------------------------------------
+		[10.0  Tabs ]
+	---------------------------------------------------------------*/
+
+	
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li {
+			width:31.9%;
+		}
+		
+		.jx-tab-date {
+			font-size: 30px;
+		}
+		
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li {
+			padding: 24px 20px 25px 20px;
+			margin-left:8px;
+			margin-right:7px;
+		
+		}
+		
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab li.resp-tab-active {
+			padding: 24px 20px 25px 20px;
+		}
+		
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[11.0  Ticket Form  ]
+	---------------------------------------------------------------*/
+		
+		.jx-countdown-form .jx-half-width {
+			width: 100% !important;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[13.0  Price Table  ]
+	---------------------------------------------------------------*/
+		
+		
+		.jx-price-table .jx-price-item .jx-price {
+			font-size: 55px;
+			padding: 10px 20px 0px;
+			line-height: 85px;
+		}
+
+		.jx-price-table .jx-price-item .jx-package-name {
+			font-size: 25px;
+			margin-bottom: 15px;
+		}
+		
+		.jx-price-table .jx-price-item .jx-package-feature {
+			padding: 0px 20px 15px;
+		}
+		
+		.jx-price-table .jx-price-item .jx-price span {
+			font-size: 30px;
+		}
+		
+		
+		
+		
+		
+	/*---------------------------------------------------------------
+		[16.0  FAQ BOX  ]
+	---------------------------------------------------------------*/
+	
+		
+		.jx-faq .jx-faq-head .jx-faq-title {
+			width: 100%;
+			float:none;
+		}
+		
+		.jx-faq-description {
+			height:auto;
+			padding:30px 20px 20px 20px;
+		}
+		
+		.jx-faq .jx-faq-head .jx-faq-title::after {
+			left:45%;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[17.0  Interactive Map  ]
+	---------------------------------------------------------------*/
+
+		
+		.jx-map-company > ul > li {
+			width: 24.9%;
+		}
+		
+		.jx-single-point:nth-of-type(3) {
+			top: 28%;
+		}
+		
+		.jx-single-point:nth-of-type(1) {
+ 		   bottom: 50%;
+		 }
+ 
+		 .jx-single-point:nth-of-type(2) {
+			bottom: 39%;
+		}
+		
+		.jx-single-point:nth-of-type(4) {
+    		top: 21%;
+		}
+
+
+			
+	}
+	
+/*  #Mobile (Portrait)
+================================================== */
+ 
+    /* Note: Design for a width of 320px */ 
+    @media only screen and (max-width: 767px) {
+
+	}
+	
+ 
+    /* Note: Design for a width of 480px */ 
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	/*---------------------------------------------------------------
+		[2.0 Services ]
+	---------------------------------------------------------------*/
+		
+		.jx-servicebox-1 .jx-service-item {
+			padding-bottom:20px;
+			margin-bottom:20px;
+		}
+		
+		/*--------Services style #1-------*/
+	
+	
+	/*---------------------------------------------------------------
+		[2.0 Services ]
+	---------------------------------------------------------------*/
+		
+		.jx-servicebox-1 .jx-service-item .service-description p {
+			padding: 0px 0px;
+		}
+		
+		/*--------Services style #1-------*/
+		
+		
+	/*---------------------------------------------------------------
+		[3.0 Media Center ]
+	---------------------------------------------------------------*/
+		
+		.jx-media-center .description {
+			padding: 10px 0px 50px;
+		}
+		
+		/*-------- Media Center -------*/
+		
+		
+		
+	/*---------------------------------------------------------------
+		[4.0 Speckers ]
+	---------------------------------------------------------------*/
+		
+		
+		 
+		 .jx-speakers img {
+			width:100%;
+		 }
+		 
+		 .jx-speakers .jx-speaker-item {
+		 	padding-bottom:40px;
+		 }
+
+
+	/*---------------------------------------------------------------
+		[5.0  Countup ]
+	---------------------------------------------------------------*/
+
+		.jx-countup .count-item {
+			padding-bottom:20px;
+			margin-bottom:20px;
+		}
+		
+	/*---------------------------------------------------------------
+		[6.0  Section Title ]
+	---------------------------------------------------------------*/
+
+		
+		.jx-section-title-1 .jx-title {
+		    font-size: 35px;
+		}
+		
+		.jx-section-title-1 .jx-title-border {
+			width: 180px;
+		}
+
+	
+	/*---------------------------------------------------------------
+		[7.0  Header ]
+	---------------------------------------------------------------*/
+		
+		.jx-menu {
+			display:none;
+		}
+		
+		.slicknav_menu {
+			display: block;
+		}
+	
+		
+		
+		
+		
+		.jx-event-title-box .jx-event-pretitle {
+			font-size: 18px;
+		}
+		
+		.jx-event-title-box .jx-event-title {
+			font-size: 25px;
+		}
+		
+		.jx-event-title-box .jx-event-location {
+			font-size: 16px;
+		}
+		
+		.jx-event-box .jx-event-date .jx-event-day {
+			font-size: 40px;
+		}
+		
+		.jx-event-box .jx-event-date .jx-event-day span {
+			font-size: 20px;
+		}
+		
+		.jx-event-box .jx-event-date .jx-event-month {
+			font-size: 20px;
+		}
+		
+		.jx-event-box-register.jx-register-box-2 .jx-event-date .jx-event-day {
+			font-size: 30px;
+		}
+		
+		.jx-event-box-register .jx-event-register {
+			display:none;
+		}
+		
+		.jx-event-box {
+			top: 130px;
+		}
+		
+		.jx-event-box-counter .jx-event-date {
+			height: 120px;
+			width: 120px;
+			padding-top: 10px !important;
+		}
+		
+		.jx-event-play i {
+			width: 80px;
+			height: 80px;
+			line-height: 60px;
+			font-size: 30px;
+		}
+		
+		.jx-event-box-register.jx-register-box-2 .jx-event-date {
+			width: 300px;
+			height: 70px;
+		}
+		
+		.jx-event-box-register .jx-event-title-box {
+			height: 120px;
+		}
+		
+		.jx-event-title-box {
+			width: 300px;
+			height: 120px;
+		}
+		
+		.jx-event-box .jx-event-date {
+			width: 120px;
+			height: 120px;
+		}
+		
+		.jx-event-play {
+			width: 120px;
+			height: 120px;
+			padding-top: 20px;
+		}
+		
+		.jx-event-box-register .jx-event-date {
+			height: 120px;
+		}
+		
+		.jx-event-countdown {
+			display:none;
+		}	
+		
+		.jx-event-box-counter .jx-event-title-box {
+			width: 300px;
+			height: 120px;
+		}
+		
+		.jx-event-box.jx-event-box-register {
+			top: 120px;
+		}
+		
+		.jx-right-vertical-border .jx-date .jx-slider-day {
+			font-size: 35px;
+		}
+		
+		.jx-right-vertical-border .jx-date .jx-slider-month {
+			font-size: 30px;
+		}
+		
+		.jx-right-vertical-border {
+			right: 110px;
+		}
+	
+		
+	/*---------------------------------------------------------------
+		[8.0  Slider ]
+	---------------------------------------------------------------*/
+		
+		.jx-slider-bottom-info {
+			display:none;
+		}
+
+
+	/*---------------------------------------------------------------
+		[9.0  According ]
+	---------------------------------------------------------------*/
+	
+	
+		.jx-accordion .title {
+			font-size:18px;
+		}
+		
+		/*--------------- Normal According --------------*/
+		
+		
+		.jx-event-schedule .item {
+		    display: inline;
+		}
+		
+		.jx-event-schedule .left-position {
+    		width: 100%;
+			float:none;
+		}
+		
+		.jx-event-schedule .right-position {
+			width: 100%;
+			float: none;
+			display: inherit;
+			margin-right: 0px;
+			border-left: none;
+			margin-left: 0px;
+			padding-left: 0px;
+			padding-bottom: 0px;
+		}
+		
+		.jx-event-schedule .head {
+			text-align: center;
+			padding-bottom: 20px;
+		}
+		
+		.jx-event-schedule .date span {
+			padding-right: 0px;
+		}
+		
+		.jx-event-schedule .date i {
+ 		    padding: 0px 3px 0px 15px;
+		}
+		
+		.jx-event-schedule p {
+			text-align:left;
+		}
+		
+		
+		/*------------- Cercle According-------------*/
+	
+	
+	/*---------------------------------------------------------------
+		[10.0  Tabs ]
+	---------------------------------------------------------------*/
+
+		
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li {
+			width:31%;
+		    padding: 24px 0px 25px;
+			margin-right: 14.5px;
+		}
+		
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab li.resp-tab-active {
+			width:31%;
+		    padding: 24px 0px 25px;
+		}
+		
+		.jx-tab-date {
+		    font-size: 30px;
+		}
+		
+		.jx-tab-day {
+		    font-size: 20px;
+		}
+		
+		.shortcode_tab_e li {
+			min-width: 120px;
+		}
+		
+		/*----------- Tabs ------------*/
+
+
+		
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+			width:100%;
+			padding-bottom: 15px;
+		}
+		
+		/*-------- Sub Tabs -------*/
+		
+
+
+	/*---------------------------------------------------------------
+		[11.0  Ticket Form  ]
+	---------------------------------------------------------------*/
+		
+		.jx-countdown-form .jx-half-width {
+			width: 100% !important;
+		}
+		
+		.jx-ticket-form h1 {
+ 		 	font-size: 32px;
+		}
+		
+		.jx-ticket-form .jx-ticket-type, .jx-ticket-form .jx-ticket-valid {
+			width:100%;
+		}
+		
+		.jx-ticket-form .jx-ticket-type {
+			float: none;
+			margin-right: 0px;
+		}
+		
+		.jx-countdown-form .jx-ticket-form {
+			height: 480px;
+		}
+		
+		.jx-ticket-form, .jx-countdown-box {
+ 		 	padding: 40px 40px 0px 40px;
+		}
+		
+
+		/*------------- Form ---------------*/
+
+		.jx-countdown-form .jx-countdown-box h1 {
+ 		   font-size: 32px;
+		}
+		.jx-countdown .counter-wrapper ul {
+			margin:0px;
+			padding:0px;
+			padding-top:20px;
+		}		
+		.jx-countdown .counter-wrapper li {
+			margin-right: 4px;
+			margin-top: 0px;
+			margin-left: 4px;
+			height:75px;
+			width:75px;
+			padding:0px;
+		}
+		
+		.jx-countdown-form .jx-countdown-box {
+			height:440px;
+		}
+		
+		.jx-countdown .counter-wrapper li .count {
+			font-size: 25px;
+		}
+		
+		.jx-countdown .counter-wrapper li .count-text {
+    		font-size: 18px;
+		}
+		
+		
+		/*------------- Count Down---------------*/
+		
+	
+	
+	/*---------------------------------------------------------------
+		[ 12.0  Testimonial  ]
+	---------------------------------------------------------------*/
+		
+		.jx-testimonial-item .jx-testimonial-image {
+			float:none;		
+			margin-right: 0px;
+		}
+		
+		.jx-testimonial-details .jx-testimonial-icon {
+			height:auto;
+		}
+		
+
+	/*---------------------------------------------------------------
+		[13.0  Price Table  ]
+	---------------------------------------------------------------*/
+		
+		
+		.jx-price-table .jx-price-item {
+			margin-bottom:40px;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[14.0  Google Map  ]
+	---------------------------------------------------------------*/
+	
+	
+		.jx-venue-box {
+			width:100%;
+			height:auto;
+		}
+		
+		.jx-hotel-name {
+			font-size: 16px;
+			font-weight: 600;
+		}
+	
+		
+		
+	/*---------------------------------------------------------------
+		[16.0  FAQ BOX  ]
+	---------------------------------------------------------------*/
+	
+	
+		.jx-faq .jx-faq-head .jx-faq-title {
+			width: 100%;
+			float:none;
+		}
+		
+		.jx-faq-description {
+			height:auto;
+			padding:30px 20px 20px 20px;
+		}
+		
+		.jx-faq .jx-faq-head .jx-faq-title::after {
+			left:45%;
+		}
+		
+		
+		
+	/*---------------------------------------------------------------
+		[17.0  Interactive Map  ]
+	---------------------------------------------------------------*/
+
+		
+		.jx-map-company > ul > li {
+			width: 50%;
+		}
+
+		.jx-single-point:nth-of-type(3) {
+			top: 24%;
+			left:16%;
+		}
+		
+		.jx-single-point:nth-of-type(1) {
+ 		   bottom: 63%;
+		   right:28%;
+		 }
+ 
+		 .jx-single-point:nth-of-type(2) {
+			bottom: 59%;
+		}
+		
+		.jx-single-point:nth-of-type(4) {
+    		top: 21%;
+			right:16%;
+		}
+		
+	/*---------------------------------------------------------------
+		[18.0  Contact Form  ]
+	---------------------------------------------------------------*/
+		
+		
+		.jx-contact-form .contact-full-name, .jx-contact-form .contact-email {
+			width: 100%;
+		}
+		
+		.jx-contact-form .contact-full-name {
+			float:  none;
+			margin-right: 0px;
+		}
+		
+
+	}
+	
+	/* MOBILE PORTRAIT SIZE TO MOBILE LANDSCAPE SIZE (DEVICES AND BROWSERS)-------------- */
+	@media only screen and (max-width:479px) {
+		
+		
+	/*---------------------------------------------------------------
+		[7.0  Header ]
+	---------------------------------------------------------------*/
+		
+		.jx-menu {
+			display:none;
+		}
+		
+		.slicknav_menu {
+			display: block;
+		}	
+	
+	/*---------------------------------------------------------------
+		[1.0 Footer ]
+	---------------------------------------------------------------*/
+				
+		.jx-footer-social li i {
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			font-size: 20px;
+		}
+
+		.jx-footer-social li {
+			margin-right: 8px;
+		}
+		
+		.jx-footer-social {
+			padding: 60px 60px 0px;
+		}
+		
+		.jx-footer-copyright {
+			font-size: 18px;
+		}
+		
+		
+		
+		
+	/*---------------------------------------------------------------
+		[2.0 Services ]
+	---------------------------------------------------------------*/
+		
+		.jx-servicebox-1 .jx-service-item {
+			padding-bottom:20px;
+			margin-bottom:20px;
+		}
+		
+		
+		.jx-servicebox-1 .jx-service-item .service-description p {
+			padding: 0px 0px;
+		}
+		
+		
+		/*--------Services style #1-------*/
+		
+		
+	/*---------------------------------------------------------------
+		[3.0 Media Center ]
+	---------------------------------------------------------------*/
+		
+		.jx-media-center .description {
+			padding: 10px 0px 50px;
+		}
+		
+		/*-------- Media Center -------*/
+		
+		
+	/*---------------------------------------------------------------
+		[4.0 Speckers ]
+	---------------------------------------------------------------*/
+		
+		
+		 
+		 .jx-speakers img {
+			width:100%;
+		 }
+		 
+		 .jx-speakers .jx-speaker-item {
+		 	padding-bottom:40px;
+		 }
+		
+		
+	/*---------------------------------------------------------------
+		[5.0  Countup ]
+	---------------------------------------------------------------*/
+
+		.jx-countup .count-item {
+			padding-bottom:20px;
+			margin-bottom:20px;
+		}
+		
+		
+
+	/*---------------------------------------------------------------
+		[6.0  Section Title ]
+	---------------------------------------------------------------*/
+
+		
+		.jx-section-title-1 .jx-title {
+		    font-size: 30px;
+		}
+		
+		.jx-section-title-1 .jx-title-border {
+			width: 118px;
+		}
+	
+	
+	/*---------------------------------------------------------------
+		[7.0  Header ]
+	---------------------------------------------------------------*/
+		
+		.jx-menu {
+			display:none;
+		}
+		
+		
+		
+		.jx-event-title-box .jx-event-pretitle {
+			font-size: 13px;
+		}
+		
+		.jx-event-title-box .jx-event-title {
+			font-size: 16px;
+		}
+		
+		.jx-event-title-box .jx-event-location {
+			font-size: 12px;
+		}
+		
+		.jx-event-box .jx-event-date .jx-event-day {
+			font-size: 30px;
+		}
+		
+		.jx-event-box .jx-event-date .jx-event-day span {
+			font-size: 20px;
+		}
+		
+		.jx-event-box .jx-event-date .jx-event-month {
+			font-size: 16px;
+		}
+		
+		.jx-event-box-register.jx-register-box-2 .jx-event-date .jx-event-day {
+			font-size: 20px;
+		}
+		
+		.jx-event-box-register .jx-event-register {
+			display:none;
+		}
+		
+		.jx-event-box {
+			top: 150px;
+		}
+		
+		.jx-event-box-counter .jx-event-date {
+			height: 80px;
+			width: 80px;
+			padding-top: 10px !important;
+		}
+		
+		.jx-event-play i {
+			width: 60px;
+			height: 60px;
+			line-height: 50px;
+			font-size: 30px;
+			border: 5px solid #FFF;
+		}
+		
+		.jx-event-box-register.jx-register-box-2 .jx-event-date {
+			width: 180px;
+			height: 40px;
+		}
+		
+		.jx-event-box-register .jx-event-title-box {
+			height: 80px;
+		}
+		
+		.jx-event-title-box {
+			width: 180px;
+			height: 80px;
+			padding:10px;
+		}
+		
+		.jx-event-box .jx-event-date {
+			width: 80px;
+			height: 80px;
+			padding:10px;
+		}
+		
+		.jx-event-play {
+			width: 80px;
+			height: 80px;
+			padding-top: 10px;
+		}
+		
+		.jx-event-box-register .jx-event-date {
+			height: 80px;
+		}
+		
+		.jx-event-countdown {
+			display:none;
+		}	
+		
+		.jx-event-box-counter .jx-event-title-box {
+			width: 180px;
+			height: 80px;
+		}
+		
+		.jx-event-box.jx-event-box-register {
+			top: 150px;
+		}
+		
+		.jx-right-vertical-border .jx-date .jx-slider-day {
+			font-size: 22px;
+		}
+		
+		.jx-right-vertical-border .jx-date .jx-slider-month {
+			font-size: 18px;
+		}
+		
+		.jx-right-vertical-border {
+			right: 70px;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[8.0  Slider ]
+	---------------------------------------------------------------*/
+		
+		.jx-slider-bottom-info {
+			display:none;
+		}
+		
+		
+		
+	/*---------------------------------------------------------------
+		[9.0  According ]
+	---------------------------------------------------------------*/
+	
+	
+		.jx-accordion .title {
+			font-size:16px;
+		}
+		
+		
+		/*--------------- Normal According --------------*/
+		
+		
+		.jx-event-schedule .item {
+		    display: inline;
+		}
+		
+		.jx-event-schedule .left-position {
+    		width: 100%;
+			float:none;
+		}
+		
+		.jx-event-schedule .right-position {
+			width: 100%;
+			float: none;
+			display: inherit;
+			margin-right: 0px;
+			border-left: none;
+			margin-left: 0px;
+			padding-left: 0px;
+			padding-bottom: 0px;
+		}
+		
+		.jx-event-schedule .head {
+			text-align: center;
+			padding-bottom: 20px;
+		}
+		
+		.jx-event-schedule .date span {
+			padding-right: 0px;
+		}
+		
+		.jx-event-schedule .date i {
+ 		    padding: 0px 3px 0px 15px;
+		}
+		
+		.jx-event-schedule p {
+			text-align:left;
+		}
+		
+		.jx-event-schedule .date {
+    		font-size: 14px;
+		}
+		
+		.jx-event-schedule .title {
+			font-size:14px;
+		}
+		
+		/*------------- Cercle According-------------*/
+	
+		
+	/*---------------------------------------------------------------
+		[10.0  Tabs ]
+	---------------------------------------------------------------*/
+
+		
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li {
+			width:30.3%;
+		    padding: 20px 0px 20px;
+			margin-right: 13px;
+		}
+		
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab li.resp-tab-active {
+			width:30.3%;
+		    padding: 20px 0px 20px;
+		}
+		
+		.jx-tab-date {
+		    font-size: 20px;
+		}
+		
+		.jx-tab-day {
+		    font-size: 16px;
+			margin:10px 0px 0px 0px;
+		}
+		
+		.shortcode_tab_e li {
+			min-width: 90px;
+		}
+		
+		/*----------- Tabs ------------*/
+
+
+		
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+			width:100%;
+			padding-bottom: 15px;
+		}
+		
+		/*-------- Sub Tabs -------*/
+		
+		
+	/*---------------------------------------------------------------
+		[11.0  Ticket Form  ]
+	---------------------------------------------------------------*/
+		
+		
+		.jx-countdown-form .jx-half-width {
+			width: 100% !important;
+		}
+		
+		.jx-ticket-form h1 {
+ 		 	font-size: 28px;
+		}
+		
+		
+		.jx-ticket-form .jx-ticket-type, .jx-ticket-form .jx-ticket-valid {
+			width:100%;
+		}
+		
+		.jx-ticket-form .jx-ticket-type {
+			float: none;
+			margin-right: 0px;
+		}
+		
+		
+		
+		.jx-countdown-form .jx-ticket-form {
+			height: 470px;
+		}
+		
+		.jx-ticket-form, .jx-countdown-box {
+ 		 	padding: 40px 20px 0px 20px;
+		}
+		
+
+		/*------------- Form ---------------*/
+
+		.jx-countdown-form .jx-countdown-box h1 {
+ 		   font-size: 28px;
+		}
+		.jx-countdown .counter-wrapper ul {
+			margin:0px;
+			padding:0px;
+			padding-top:20px;
+		}		
+		.jx-countdown .counter-wrapper li {
+			margin-right: 4px;
+			margin-top: 0px;
+			margin-left: 4px;
+		}
+		
+		.jx-countdown-form .jx-countdown-box {
+			height:570px;
+		}
+		
+		/*------------- Count Down---------------*/
+		
+		
+		
+	/*---------------------------------------------------------------
+		[ 12.0  Testimonial  ]
+	---------------------------------------------------------------*/
+		
+		.jx-testimonial-item .jx-testimonial-image {
+			float:none;		
+			margin-right: 0px;
+		}
+		
+		.jx-testimonial-details .jx-testimonial-icon {
+			height:auto;
+		}
+		
+		.container-bg-icon i {
+    		font-size: 290px;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[13.0  Price Table  ]
+	---------------------------------------------------------------*/
+		
+		
+		.jx-price-table .jx-price-item {
+			margin-bottom:40px;
+		}
+		
+				
+		.jx-price-table .jx-price-item .jx-price {
+			font-size: 55px;
+			padding: 10px 20px 0px;
+			line-height: 85px;
+		}
+
+		.jx-price-table .jx-price-item .jx-package-name {
+			font-size: 25px;
+			margin-bottom: 15px;
+		}
+		
+		.jx-price-table .jx-price-item .jx-package-feature {
+			padding: 0px 20px 15px;
+		}
+		
+		.jx-price-table .jx-price-item .jx-price span {
+			font-size: 30px;
+		}
+	
+
+	/*---------------------------------------------------------------
+		[14.0  Google Map  ]
+	---------------------------------------------------------------*/
+	
+	
+		.jx-venue-box {
+			width:100%;
+			height:auto;
+		}
+		
+		.jx-hotel-name {
+			font-size: 16px;
+			font-weight: 600;
+		}
+	
+	
+	/*---------------------------------------------------------------
+		[15.0  Partner Logo  ]
+	---------------------------------------------------------------*/
+	
+	
+		.jx-sponsor{
+		  overflow: hidden
+		}
+						
+				
+		
+	/*---------------------------------------------------------------
+		[16.0  FAQ BOX  ]
+	---------------------------------------------------------------*/
+	
+	
+		.jx-faq .jx-faq-head .jx-faq-title {
+			width: 100%;
+			float:none;
+		}
+		
+		.jx-faq-description {
+			height:auto;
+			padding:30px 20px 20px 20px;
+		}
+		
+		.jx-faq .jx-faq-head .jx-faq-title::after {
+			left:43%;
+		}
+	
+
+	/*---------------------------------------------------------------
+		[17.0  Interactive Map  ]
+	---------------------------------------------------------------*/
+
+		
+		.jx-map-company > ul > li {
+			width: 100%;
+		}
+
+		.jx-single-point:nth-of-type(3) {
+			top: 18%;
+			left:16%;
+		}
+		
+		.jx-single-point:nth-of-type(1) {
+ 		   bottom: 76%;
+		   right:28%;
+		 }
+ 
+		 .jx-single-point:nth-of-type(2) {
+			bottom: 73%;
+		}
+		
+		.jx-single-point:nth-of-type(4) {
+    		top: 17%;
+			right:16%;
+		}
+		
+		
+
+
+	/*---------------------------------------------------------------
+		[18.0  Contact Form  ]
+	---------------------------------------------------------------*/
+		
+		
+		.jx-contact-form .contact-full-name, .jx-contact-form .contact-email {
+			width: 100%;
+		}
+		
+		.jx-contact-form .contact-full-name {
+			float:  none;
+			margin-right: 0px;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[19.0  Portfolio  ]
+	---------------------------------------------------------------*/
+	
+	.jx-custom-flex .flex-custom-control-nav li {
+		padding: 10px 10px !important;
+		width: 32%;
+	}
+		
+		
+		
+		
+	}
+	
+/* #iPad (Landscape) and (Portrait)
+================================================== */
+	@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
+	
+
+	
+	/*---------------------------------------------------------------
+		[4.0 Speakers ]
+	---------------------------------------------------------------*/
+	
+	.jx-speaker-details .jx-speaker-social ul li i {
+		margin-right: 8px;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 18px;
+	 }
+	
+	/*---------------------------------------------------------------
+		[7.0  Header ]
+	---------------------------------------------------------------*/
+		
+		.jx-menu {
+			display:none;
+		}
+		
+		.slicknav_menu {
+			display: block;
+		}
+	
+		
+		
+		
+	/*---------------------------------------------------------------
+		[8.0  Slider ]
+	---------------------------------------------------------------*/
+	
+		.line-icon {
+			font-size: 35px;
+			padding: 5px;
+		}
+		
+		.jx-info-content .info-title {
+			font-size: 14px;
+		}
+	
+		.jx-info-content .info-description {
+			font-size: 14px;
+		}
+
+		.jx-event-box {
+			left: 45%;		
+		}
+		
+		.jx-event-title-box .jx-event-pretitle {
+			font-size: 30px;
+		}
+		
+		.jx-event-title-box .jx-event-title {
+			font-size: 50px;
+		}
+		
+		.jx-event-title-box .jx-event-location {
+			font-size: 25px;
+			line-height: 2;
+		}
+		
+		
+
+
+	/*---------------------------------------------------------------
+		[9.0  According ]
+	---------------------------------------------------------------*/
+	
+	
+		.jx-event-schedule .right-position {
+			width: 830px;
+		}
+	
+	
+	/*---------------------------------------------------------------
+		[10.0  Tabs ]
+	---------------------------------------------------------------*/
+
+	
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li {
+			width:32.5%;
+		}
+		
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[11.0  Ticket Form  ]
+	---------------------------------------------------------------*/
+		
+
+		
+		.jx-ticket-form h1 {
+ 		 	font-size: 32px;
+		}
+		
+		.jx-ticket-form .jx-ticket-type {
+			width:46%;
+		}
+		
+		.jx-countdown-form .jx-ticket-form {
+			height: 410px;
+		}
+		
+		.jx-ticket-form, .jx-countdown-box {
+ 		 	padding: 40px 40px 0px 40px;
+		}
+		
+
+		/*------------- Form ---------------*/
+
+		.jx-countdown-form .jx-countdown-box h1 {
+ 		   font-size: 32px;
+		}
+		.jx-countdown .counter-wrapper ul {
+			margin:0px;
+			padding:0px;
+			padding-top:20px;
+		}		
+		.jx-countdown .counter-wrapper li {
+			margin-right: 4px;
+			margin-top: 0px;
+			margin-left: 4px;
+			height:80px;
+			width:80px;
+			padding:0px;
+		}
+		
+		.jx-countdown .counter-wrapper li .count {
+			font-size:25px;
+		}
+		
+		.jx-countdown .counter-wrapper li .count-text {
+			font-size:18px;
+		}
+		
+		.jx-countdown-form .jx-countdown-box {
+			height:408px;
+		}
+		
+		
+		/*------------- Count Down---------------*/
+		
+		
+		
+	/*---------------------------------------------------------------
+		[13.0  Price Table  ]
+	---------------------------------------------------------------*/
+		
+		
+		.jx-price-table .jx-price-item .jx-price {
+			font-size: 75px;
+			padding: 20px 20px 0px;
+			line-height: 95px;
+		}
+
+		.jx-price-table .jx-price-item .jx-package-name {
+			font-size: 30px;
+			margin-bottom: 25px;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[16.0  FAQ BOX  ]
+	---------------------------------------------------------------*/
+
+		.jx-faq-description p {
+			font-size: 15px;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[17.0  Interactive Map  ]
+	---------------------------------------------------------------*/
+
+		
+		.jx-map-company > ul > li {
+			width: 24.9%;
+		}
+
+		.jx-single-point:nth-of-type(3) {
+			top: 25%;
+		}
+		
+		.jx-single-point:nth-of-type(1) {
+ 		   bottom: 50%;
+		 }
+ 
+		 .jx-single-point:nth-of-type(2) {
+			bottom: 38%;
+		}
+		
+	/*---------------------------------------------------------------
+		[18.0  Sponsor Logo  ]
+	---------------------------------------------------------------*/	
+		.jx-sponsor{
+			  overflow: hidden
+			}	
+		
+			
+	}
+	
+	@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) {
+	
+
+	/*---------------------------------------------------------------
+		[1.0 Footer ]
+	---------------------------------------------------------------*/
+	
+	.jx-footer-social li i {
+		width: 60px;
+		height: 60px;
+		line-height: 62px;
+		font-size: 25px;
+	}
+	
+
+	/*---------------------------------------------------------------
+		[2.0 Services ]
+	---------------------------------------------------------------*/
+		
+		.jx-servicebox-1 .jx-service-item .service-description p {
+			padding: 0px 0px;
+		}
+		
+		/*--------Services style #1-------*/
+
+
+	/*---------------------------------------------------------------
+		[3.0 Media Center ]
+	---------------------------------------------------------------*/
+
+		.jx-media-center .title {
+			font-size: 18px;
+		}
+		
+		.jx-media-center .date {
+			font-size: 16px;
+		}
+		
+		.jx-media-center .date span {
+			padding-right: 10px;
+		}
+		
+		.jx-media-center .date i {
+		    padding: 0px 2px 0px 0px;
+		}
+	
+	
+	/*---------------------------------------------------------------
+		[4.0 Speckers ]
+	---------------------------------------------------------------*/
+		
+		.jx-speakers .four.columns {
+			width:360px;
+		 }
+		 
+		 .jx-speakers img {
+			width:100%;
+		 }
+		 
+		 .jx-speakers .jx-speaker-item {
+		 	padding-bottom:40px;
+		 }
+		 
+			 
+	/*---------------------------------------------------------------
+		[5.0  Countup ]
+	---------------------------------------------------------------*/
+
+		.jx-countup .count-item .count-text {
+			font-size: 20px;
+		}
+		
+		.jx-countup .count-item .count-number {
+			font-size: 40px;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[6.0  Section Title ]
+	---------------------------------------------------------------*/
+
+		
+		.jx-section-title-1 .jx-title {
+		    font-size: 35px;
+		}
+		
+		
+		
+	/*---------------------------------------------------------------
+		[7.0  Header ]
+	---------------------------------------------------------------*/
+		
+		.jx-menu {
+			display:none;
+		}
+		
+		.slicknav_menu {
+			display: block;
+		}
+	
+	
+	
+	/*---------------------------------------------------------------
+		[8.0  Slider ]
+	---------------------------------------------------------------*/
+	
+		.line-icon {
+			font-size: 20px;
+			padding: 4px;
+		}
+		
+		.jx-info-content .info-title {
+			font-size: 14px;
+		}
+	
+		.jx-info-content .info-description {
+			font-size: 12px;
+		}
+		
+
+
+		.jx-event-box {
+			left: 45%;		
+		}
+		
+		.jx-event-title-box .jx-event-pretitle {
+			font-size: 30px;
+		}
+		
+		.jx-event-title-box .jx-event-title {
+			font-size: 50px;
+		}
+		
+		.jx-event-title-box .jx-event-location {
+			font-size: 25px;
+			line-height: 2;
+		}
+		
+		
+		
+		
+	/*---------------------------------------------------------------
+		[9.0  According ]
+	---------------------------------------------------------------*/
+	
+	
+		.jx-event-schedule .right-position {
+			width: 630px;
+		}
+	
+	
+	/*---------------------------------------------------------------
+		[10.0  Tabs ]
+	---------------------------------------------------------------*/
+
+	
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li {
+			width:31.9%;
+		}
+		
+		.jx-tab-date {
+			font-size: 30px;
+		}
+		
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li {
+			padding: 24px 20px 25px 20px;
+			margin-left:8px;
+			margin-right:7px;
+		
+		}
+		
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab li.resp-tab-active {
+			padding: 24px 20px 25px 20px;
+		}
+		
+		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[11.0  Ticket Form  ]
+	---------------------------------------------------------------*/
+		
+		.jx-countdown-form .jx-half-width {
+			width: 100% !important;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[13.0  Price Table  ]
+	---------------------------------------------------------------*/
+		
+		
+		.jx-price-table .jx-price-item .jx-price {
+			font-size: 55px;
+			padding: 10px 20px 0px;
+			line-height: 85px;
+		}
+
+		.jx-price-table .jx-price-item .jx-package-name {
+			font-size: 25px;
+			margin-bottom: 15px;
+		}
+		
+		.jx-price-table .jx-price-item .jx-package-feature {
+			padding: 0px 20px 15px;
+		}
+		
+		.jx-price-table .jx-price-item .jx-price span {
+			font-size: 30px;
+		}
+		
+		
+		
+		
+		
+	/*---------------------------------------------------------------
+		[16.0  FAQ BOX  ]
+	---------------------------------------------------------------*/
+	
+		
+		.jx-faq .jx-faq-head .jx-faq-title {
+			width: 100%;
+			float:none;
+		}
+		
+		.jx-faq-description {
+			height:auto;
+			padding:30px 20px 20px 20px;
+		}
+		
+		.jx-faq .jx-faq-head .jx-faq-title::after {
+			left:47%;
+		}
+		
+		
+	/*---------------------------------------------------------------
+		[17.0  Interactive Map  ]
+	---------------------------------------------------------------*/
+
+		
+		.jx-map-company > ul > li {
+			width: 24.9%;
+		}
+		
+		.jx-single-point:nth-of-type(3) {
+			top: 28%;
+		}
+		
+		.jx-single-point:nth-of-type(1) {
+ 		   bottom: 50%;
+		 }
+ 
+		 .jx-single-point:nth-of-type(2) {
+			bottom: 39%;
+		}
+		
+		.jx-single-point:nth-of-type(4) {
+    		top: 21%;
+		}
+
+	
+	}

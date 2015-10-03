@@ -1,0 +1,90 @@
+/* pink Skin */
+/* ------------------------------------------------------------------------ */
+/* Color
+/* ------------------------------------------------------------------------ */
+.jx-info-content .info-title , .jx-section-title-1 .jx-title-icon i , .jx-servicebox-1 .jx-service-item .service-icon i , .jx-event-schedule .date ,
+.jx-event-schedule .date i , .jx-media-center .date i , .jx-countdown-form .jx-countdown-box h1 , .jx-btn-default.jx-outline , .jx-testimonial-details .jx-testimonial-icon i , .jx-testimonial-content .jx-testimonial-name , a , .jx-price-item.jx-white .jx-price,.jx-price-item.jx-white .jx-package-name,.jx-price-item.jx-white .jx-package-feature , .jx-btn-default.jx-outline i
+{
+	color:#EE163A ;
+}
+/* ------------------------------------------------------------------------ */
+/* Background
+/* ------------------------------------------------------------------------ */
+::selection 
+{
+	background:#EE163A !important;
+}
+::-moz-selection   
+{
+	background:#EE163A !important;
+}
+.jx-servicebox-1 .jx-service-item .service-title-border , .jx-event-schedule .image i , .jx-speaker-details , .grid-item ,
+.jx-newsletter .jx-form-wrapper button , .jx-single-point > a  , .jx-countdown .counter-wrapper li  , .jx-faq .jx-faq-head .jx-faq-title , .jx-contact-form input.jx-submit, .jx-menu .main-menu li:hover , .jx-main-slider .flex-direction-nav a  , .jx-menu .main-menu li a.mPS2id-highlight
+{
+	background:#EE163A !important;
+}
+.shortcode_tab_e.jx-white-tab.jx-arrow-tab li.resp-tab-active , .jx-sponsor .flex-control-nav.flex-control-paging li a , .jx-testimonial .flex-control-nav.flex-control-paging li a , .jx-price-table .jx-price-item , .jx-btn-default , .jx-event-box-register .jx-event-register .jx-btn-default
+{
+	background:#EE163A;
+}
+.jx-price-item.jx-white{
+  background:#fff !important;   
+}
+	
+/* ------------------------------------------------------------------------ */
+/* Background Color
+/* ------------------------------------------------------------------------ */
+.jx-default-bg , .jx-pricing-switcher .jx-switch 
+{
+	background-color:#EE163A !important;
+}
+/* ------------------------------------------------------------------------ */
+/* Background RGBA Color
+/* ------------------------------------------------------------------------ */
+.jx-event-box .jx-event-date , .jx-event-play {
+	background: rgba(238, 22, 58, 0.9) !important;
+}
+.grid-item .jx-portfolio-hoverlayer  , .jx-media-center .jx-image-wrapper .jx-image-overlay {
+	background: rgba(238, 22, 58, 0.8) !important;	
+}
+/* ------------------------------------------------------------------------ */
+/* Border Color
+/* ------------------------------------------------------------------------ */
+.jx-btn-default.jx-outline , .jx-testimonial .flex-control-nav.flex-control-paging li a.flex-active , .jx-sponsor .flex-control-nav.flex-control-paging li a.flex-active , .jx-price-item.jx-white .jx-package-feature li
+	{
+		border-color:#EE163A !important;
+	}
+.jx-faq .jx-faq-head .jx-faq-title::after 
+	{
+	border-color: #EE163A transparent !important;
+	}
+.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li.resp-tab-active::after 
+{
+	border-color: #EE163A transparent;
+}
+.jx-btn-default {
+	border-color:#EE163A;
+}
+/* ------------------------------------------------------------------------ */
+/* Border Left Color
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* Border Right Color
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* Border Top Color
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+/* Border Bottom Color
+/* ------------------------------------------------------------------------ */
+.resp-tab-item.childtab_1.resp-tab-active , .resp-tab-item.childtab_2.resp-tab-active , .resp-tab-item.childtab_3.resp-tab-active
+ {
+	border-bottom-color:#EE163A !important;
+ }
+/* ------------------------------------------------------------------------ */
+/* Variant Background Color
+/* ------------------------------------------------------------------------ */
+.jx-bg-defualt-1{background-color:#c63f32 !important}
+.jx-bg-defualt-2{background-color:#ad3b30 !important}
+.jx-bg-defualt-3{background-color:#852f27 !important}
+.jx-bg-defualt-4{background-color:#5b1a13 !important}
