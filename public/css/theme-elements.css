@@ -5,27 +5,27 @@ Last change:	14/05/15 [fixed Float bug, vf]
 Author:	Janxcode
 [Table of contents]
 1.0 Sponsor Logo
-2.0 Service List 
+2.0 Service List
 3.0 Countup
-4.0 Speakers 
-5.0 Newsletter 
-6.0 Buttons 
+4.0 Speakers
+5.0 Newsletter
+6.0 Buttons
 7.0 Tabs
-8.0 FAQ 
-9.0 Contact Form 
-10.0 Testimonials 
-11.0 Price Table 
-12.0 Register Form 
-13.0 Media Center 
-14.0 Event Schedule 
-15.0 Exhibition Floor Plan 
-16.0 Portfolio 
- 
+8.0 FAQ
+9.0 Contact Form
+10.0 Testimonials
+11.0 Price Table
+12.0 Register Form
+13.0 Media Center
+14.0 Event Schedule
+15.0 Exhibition Floor Plan
+16.0 Portfolio
+
 -------------------------------------------------------------------*/
 
 /*---------------------------------------------------------------
 [1.0 Sponsor Logo ]
-----------------------------------------------------------------*/	
+----------------------------------------------------------------*/
 .jx-sponsor{
   text-align:center;
 }
@@ -62,7 +62,7 @@ Author:	Janxcode
 }
 .jx-servicebox-1 .jx-service-item .service-icon i{
   color:#ee163a;
-  font-size:60px;  
+  font-size:60px;
 }
 .jx-servicebox-1 .jx-service-item .service-title{
   margin-top:5px;
@@ -102,7 +102,7 @@ Author:	Janxcode
   width:55px;
   height:5px;
   background:#fff;
-  margin:15px auto;    
+  margin:15px auto;
 }
 .jx-countup .count-item .count-text{
   text-transform:uppercase;
@@ -110,7 +110,7 @@ Author:	Janxcode
   color:#fff;
   font-family:oswald;
 }
-	
+
 /*---------------------------------------------------------------
 [4.0 Speakers ]
 ---------------------------------------------------------------*/
@@ -143,7 +143,7 @@ Author:	Janxcode
 }
 .jx-speaker-details .speaker-position{
   color:#fff;
-  font-size:17px;  
+  font-size:17px;
 }
 .jx-speaker-details .jx-speaker-social ul{
   margin-top:20px;
@@ -179,7 +179,7 @@ Author:	Janxcode
   margin-bottom:50px;
   max-width:600px;
   margin:0 auto;
-} 
+}
 .jx-newsletter .jx-form-wrapper input {
 	padding: 10px 13px;
 	float: left;
@@ -211,51 +211,51 @@ Author:	Janxcode
   text-indent:-15px;
   font-size:35px;
 }
- 
+
 .jx-newsletter .jx-form-wrapper input:focus {
     outline: 0;
     background: #fff;
 }
- 
+
 .jx-newsletter .jx-form-wrapper input::-webkit-input-placeholder {
    color: #999;
    font-weight: normal;
    font-style: italic;
 }
- 
+
 .jx-newsletter .jx-form-wrapper input:-moz-placeholder {
     color: #999;
     font-weight: normal;
     font-style: italic;
 }
- 
+
 .jx-newsletter .jx-form-wrapper input:-ms-input-placeholder {
     color: #999;
     font-weight: normal;
     font-style: italic;
-}    
- 
-/* Form submit button */
-   
-.jx-newsletter .jx-form-wrapper button:hover{     
-    background: #000;
-}   
-   
-.jx-newsletter .jx-form-wrapper button:active,
-.jx-newsletter .jx-form-wrapper button:focus{   
-    background: #c42f2f;
-    outline: 0;   
 }
- 
- 
+
+/* Form submit button */
+
+.jx-newsletter .jx-form-wrapper button:hover{
+    background: #000;
+}
+
+.jx-newsletter .jx-form-wrapper button:active,
+.jx-newsletter .jx-form-wrapper button:focus{
+    background: #c42f2f;
+    outline: 0;
+}
+
+
 .jx-newsletter .jx-form-wrapper button:hover:before{
     border-right-color: #000;
 }
- 
+
 .jx-newsletter .jx-form-wrapper button:focus:before,
 .jx-newsletter .jx-form-wrapper button:active:before{
         border-right-color: #c42f2f;
-}    
+}
 
 /*---------------------------------------------------------------
 [6.0 Buttons ]
@@ -290,7 +290,7 @@ Author:	Janxcode
 .jx-btn-default.jx-outline {
     color: #EE163A;
     border: 2px solid #EE163A;
-	background:none;	
+	background:none;
 }
 
 .jx-btn-default.jx-outline i {
@@ -403,10 +403,10 @@ Author:	Janxcode
 	width: 0;
 	z-index: 5;
 	bottom: -8px;
-	margin-left: -9px;  
+	margin-left: -9px;
 	left: 50%;
 }
-.shortcode_tab_e.jx-white-tab.jx-arrow-tab li.resp-tab-active {  
+.shortcode_tab_e.jx-white-tab.jx-arrow-tab li.resp-tab-active {
   padding: 24px 52px 25px;
   background-color: #EE163A;
   color: #fff;
@@ -421,12 +421,12 @@ Author:	Janxcode
 .jx-tab-date{
   font-family:oswald;
   font-size:50px;
-  line-height: 1    
+  line-height: 1
 }
 .jx-tab-day{
   font-family:oswald;
   font-size:30px;
-  margin:15px 0 5px 0px ;  
+  margin:15px 0 5px 0px ;
 }
 .jx-subtab-main{
   padding:0 !important;
@@ -512,7 +512,7 @@ Author:	Janxcode
   margin-bottom:10px;
   cursor: pointer
   }
-  
+
 .jx-accordion{
   padding-top:20px !important;
 }
@@ -522,7 +522,7 @@ Author:	Janxcode
 }
 .jx-accordion .description{
   margin-bottom:20px !important;
-  font-size:17px;    
+  font-size:17px;
 }
 /*---------------------------------------------------------------
 [9.0 Contact Form   ]
@@ -589,11 +589,11 @@ Author:	Janxcode
   font-size:18px;
   text-transform: uppercase;
   font-weight:500
-    
+
 }
 .jx-venue-heading i{
  margin-right:5px;
-  font-size:25px;    
+  font-size:25px;
 }
 .jx-address-1,.jx-address-2,.jx-address-3{
   font-size:17px;
@@ -615,16 +615,16 @@ Author:	Janxcode
 .jx-testimonial-details{
   padding:10px 20px 0;
 }
-.jx-testimonial-item .jx-testimonial-image{ 
+.jx-testimonial-item .jx-testimonial-image{
   float:left;
   margin-right:20px;
 }
-.jx-testimonial-details .jx-testimonial-icon{  
-  float:left; 
-  height:140px;
+.jx-testimonial-details .jx-testimonial-icon{
+  float:left;
+  height:80px;
   margin-right:10px;
 }
-.jx-testimonial-details .jx-testimonial-icon i{  
+.jx-testimonial-details .jx-testimonial-icon i{
   font-size:35px;
   color:#ee163a
 }
@@ -632,29 +632,31 @@ Author:	Janxcode
   margin-left:20px;
 }
 .jx-testimonial-content .jx-testimonial-description p{
-  font-size:16px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-size:30px;
 }
 .jx-testimonial-content .jx-testimonial-name {
   font-size:20px;
   color:#ee163a;
   font-weight:500;
-  padding-top:10px 
+  padding-top:10px
 }
 .jx-testimonial-content .jx-testimonial-company {
   font-size:20px;
   line-height: 1.2;
   color:#000;
-  font-weight:500  
+  font-weight:500
 }
 .container-bg-icon{
   position: absolute;
   top:20px;
   left:50px;
-  
+
 }
 .container-bg-icon i{
   font-size:550px;
-  color:#ddd  
+  color:#ddd
 }
 /* Flexslider */
 .jx-testimonial .flex-control-nav.flex-control-paging{
@@ -680,10 +682,10 @@ Author:	Janxcode
 ----------------------------------------------------------------*/
 .jx-price-table .jx-price-item{
   background:#ee163a;
-  color:#fff;  
+  color:#fff;
 }
 .jx-price-table .jx-price-item .jx-price{
-  font-size:110px;
+  font-size:90px;
   font-family:oswald;
   text-align: center;
   padding:30px 20px 0px;
@@ -691,7 +693,7 @@ Author:	Janxcode
   line-height:110px;
 }
 .jx-price-table .jx-price-item .jx-price span{
-  font-size:50px;
+  font-size:40px;
 }
 .jx-price-table .jx-price-item .jx-package-name{
   font-size:40px;
@@ -703,7 +705,7 @@ Author:	Janxcode
  padding:0px 20px 25px;
 }
 .jx-price-table .jx-price-item .jx-package-feature ul li{
- border-top:1px dashed #fff;
+ border-bottom:1px dashed #fff;
  margin:0;
   padding:10px;
   font-size:14px;
@@ -714,7 +716,7 @@ Author:	Janxcode
 
 /* White Price Table */
 .jx-price-item.jx-white{
-  background:#fff;   
+  background:#fff;
 }
 
 .jx-price-item.jx-white .jx-price,.jx-price-item.jx-white .jx-package-name,.jx-price-item.jx-white .jx-package-feature{
@@ -995,9 +997,9 @@ padding:0px;
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
-xkeyframes 
+xkeyframes
 
 -------------------------------- */
 @-webkit-keyframes cd-rotate {
@@ -1216,7 +1218,7 @@ xkeyframes
   margin-right:20px;
 }
 .jx-ticket-form .jx-ticket-type,.jx-ticket-form .jx-ticket-valid{
-  width:48%;  
+  width:48%;
 }
 .jx-countdown-form .jx-countdown-box,.jx-countdown-form .jx-ticket-form{
   display: inline-block;
@@ -1225,7 +1227,7 @@ xkeyframes
 .jx-countdown-form .jx-countdown-box h1{
 	text-align:center;
 	color:#ee163a;
-	
+
 }
 .jx-countdown{
   text-align: center
@@ -1257,7 +1259,7 @@ xkeyframes
   margin-top:5px;
   font-weight:400;
   text-transform: uppercase
- 
+
 }
 /*---------------------------------------------------------------
 [13.0 Media Center ]
@@ -1310,11 +1312,14 @@ xkeyframes
  }
 
 .jx-media-center .jx-image-wrapper{
-  overflow:hidden 
+  overflow:hidden;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
  }
- 
+
 .jx-media-center .jx-image-wrapper:hover .jx-image-overlay{
-  opacity:1; 
+  opacity:1;
  }
 
 .jx-media-center .jx-image-wrapper .jx-blog-more{
@@ -1324,7 +1329,7 @@ xkeyframes
   margin-left:-50px;
   margin-top:-20px;
   padding:0;
-  transition:all 0.3s ease-out  
+  transition:all 0.3s ease-out
 }
 
 .jx-media-center .jx-image-wrapper:hover .jx-blog-more {
@@ -1375,8 +1380,7 @@ xkeyframes
 	width: 900px;
 	float: left;
 	display: inline;
-	margin-right: 10px;	
-	border-left: 2px solid #cccccc;
+	margin-right: 10px;
 	margin-left: -70px;
 	padding-left: 84px;
 	padding-bottom:50px;
@@ -1826,7 +1830,7 @@ xkeyframes
 
 .jx-portfolio-grid{
  height:600px !important;
- width:2000px !important; 
+ width:2000px !important;
 }
 
 
@@ -1878,7 +1882,7 @@ xkeyframes
   z-index: 999;
   padding:20px;
   opacity:0;
-  transition:all .3s ease-out;  
+  transition:all .3s ease-out;
 }
 
 .grid-item:hover .jx-portfolio-hover{
@@ -1899,14 +1903,14 @@ xkeyframes
 
 .grid-item .jx-portfolio-top-hover{
   top:0;
-  color:#fff; 
+  color:#fff;
 }
 
 .grid-item .jx-portfolio-bottom-hover{
-  bottom:10px;  
+  bottom:10px;
   position: absolute;
   color:#fff;
- 
+
 }
 
 
@@ -1923,9 +1927,9 @@ xkeyframes
 
 .jx-portfolio-bottom-hover .jx-portfolio-more{
   width:100%;
- 
+
 }
- 
+
 
 
 /* Portfolio Filter */
@@ -1935,7 +1939,7 @@ position:relative
 .jx-custom-flex .flex-custom-control-nav{
   width:100%;
   height:32px;
-  top:120px;    
+  top:120px;
 }
 
 .jx-custom-flex .flex-custom-control-nav:before{
@@ -1944,9 +1948,9 @@ position:relative
   width:100%;
   height:1px;
   position: absolute;
-  top:20px; 
+  top:20px;
   z-index:-1;
-  left: 0;   
+  left: 0;
 }
 
 .jx-custom-flex .flex-custom-control-nav li{
@@ -1962,7 +1966,7 @@ position:relative
 .jx-custom-flex .flex-custom-control-nav li a{
   line-height: 1;
   background:#fff;
-  padding:0 20px; 
+  padding:0 20px;
   z-index: 999;
   position: reelative;
   font-family: oswald;

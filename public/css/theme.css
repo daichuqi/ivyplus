@@ -22,6 +22,53 @@ Author:	Janxcode
 /*---------------------------------------------------------------
 [1.0 Reset ]
 */
+
+.flexslider .slides img {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 200px !important;
+}
+
+.shorter{
+  height:260px !important;
+}
+.foreword{
+  margin-top: 10%;
+}
+.moreText1{
+  display: none;
+}
+.moreText2{
+  display: none;
+}
+.moreText3{
+  display: none;
+}
+#readMore1{
+  color: red;
+}
+#readMore2{
+  color: red;
+}
+#readMore3{
+  color: red;
+}
+#readMore1:hover{
+  color: white;
+  background-color: darkred;
+  cursor: pointer;
+}
+#readMore2:hover{
+    color: white;
+  background-color: darkred;
+  cursor: pointer;
+}
+#readMore3:hover{
+    color: white;
+  background-color: darkred;
+  cursor: pointer;
+}
+
 * {
   font-family: 'Raleway',Arial,Helvetica,sans-serif;
   -moz-box-sizing: border-box;
@@ -94,7 +141,6 @@ table {
 */
 body {
   background: #fff;
-  font: 14px/20px 'Raleway',Arial,Helvetica,sans-serif;
   color: #666;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -989,9 +1035,12 @@ dl dt {
   position: relative;
 }
 .jx-container.jx-padding {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 80px;
+  padding-bottom: 40px;
   position: relative;
+}
+.prewordtext{
+  padding-top: 50px;
 }
 .jx-container.jx-padding-top {
   padding-top: 80px;
@@ -1150,7 +1199,7 @@ dl dt {
 
 .jx-section-title-1 .jx-title-icon i{
   color:#ee163a;
-  font-size:35px
+  font-size:35px;
 }
 
 .jx-section-title-1 .jx-title-border{
@@ -1208,12 +1257,8 @@ dl dt {
 /*---------------------------------------------------------------
 [4.0 Header ]
 ----------------------------------------------------------------*/
-header{
-  border-bottom:1px solid rgba(255,255,255,0.5)
-}
 header .jx-logo {
-    padding-top: 15px;
-    padding-bottom: 12px;
+    padding-top: 4px;
 }
 
 
@@ -1517,7 +1562,7 @@ header .jx-logo {
 	top:0;
 	left:0;
 	width:100%;
-	height: 142px;
+	height: 130px;
 	z-index: 9999;
 }
 
@@ -1838,7 +1883,7 @@ header .jx-logo {
 .jx-event-play i{
    color:#fff;
   border:10px solid #fff;
- width:180px;
+   width:180px;
   height:180px;
   line-height:160px;
   text-align: center;
