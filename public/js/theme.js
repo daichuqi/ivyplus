@@ -16,10 +16,7 @@ Version: 		1.0
 
 			if (this.initialized) return;
 			this.initialized = true;
-
 			this.build();
-			this.events();
-
 		},
 
 		build: function() {
@@ -65,16 +62,8 @@ Version: 		1.0
 
 		},
 
-		events: function() {
-
-
-
-		},
-
-
 		//Items on Ready
 		onReady: function(){
-
 
 			jQuery(document).ready(function(){
 
@@ -92,7 +81,6 @@ Version: 		1.0
 					$('.moreText3').removeClass('moreText3');
 					$('#readMore3').addClass('moreText3');
 				})
-
 
 				/*Point of interest */
 				//open interest point description
@@ -200,12 +188,9 @@ Version: 		1.0
 				jQuery('.loader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
 				jQuery('body').delay(350).css({'overflow':'visible'});
 
-
 				[].slice.call(document.querySelectorAll('img.tilt-effect')).forEach(function(img) {
 					new TiltFx(img, JSON.parse(img.getAttribute('data-tilt-options')));
 				});
-
-
 
 				getWidthAndHeight();
 
@@ -226,17 +211,6 @@ Version: 		1.0
 					nextText:''
 				});
 
-
-				//Portfolio Slider
-				jQuery('.jx-protfolio.jx-flexslider').flexslider({
-					animation: "slide",
-					controlNav: true,
-					directionNav:true,
-					slideshowSpeed:"8000",
-					manualControls: ".flex-custom-control-nav li"
-				});
-
-
 				//Sponsors Logo
 				jQuery('.jx-sponsor.flexslider').flexslider({
 					animation: "slide",
@@ -251,7 +225,6 @@ Version: 		1.0
 					nextText:''
 
 				});
-
 
 				//Testimonial #1
 				jQuery('.jx-testimonial .flexslider').flexslider({
