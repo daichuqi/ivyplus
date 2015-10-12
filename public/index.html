@@ -93,14 +93,15 @@
                         <nav class="jx-menu right">
                             <div id="jx-main-menu" class="main-menu">
                                 <ul>
-                                    <li class="current"><a href="#home">Home</a></li>
-                                    <li><a href="#about">INTRO</a></li>
-                                    <li><a href="#schedule">Schedule</a></li>
-                                    <li><a href="#speakers">Rules</a></li>
-                                    <li><a href="#register">Prize</a></li>
-                                    <li><a href="#gallery">Gallery</a></li>
-                                    <li><a href="#sponsors">Sponsors</a></li>
-                                    <li><a href="#contacts">Contact Us</a></li>
+                                    <li class="current"><a href="#home">首页</a></li>
+                                    <li><a href="#about">简介</a></li>
+                                    <li><a href="#hosts">主办方</a></li>
+                                    <li><a href="#speakers">比赛赛制</a></li>
+                                    <li><a href="#register">优胜奖励</a></li>
+                                    <li><a href="#schedule">日程安排</a></li>
+                                    <li><a href="#sponsors">参与机构</a></li>
+                                    <li><a href="#gallery">活动图集</a></li>
+                                    <li><a href="#contacts">联系我们</a></li>
                                 </ul>
                             </div>
 
@@ -170,7 +171,7 @@
                                 <div class="jx-info-icon"><i class="line-icon icon-megaphone"></i></div>
                                 <div class="jx-info-content">
                                     <div class="info-title">VENTURE CAPITALISTS</div>
-                                    <div class="info-description">30+ Investors</div>
+                                    <div class="info-description">30+ Organization</div>
                                 </div>
                             </li>
                             <!-- Item 04 -->
@@ -215,7 +216,7 @@
 		<!-- EOF Services Box -->
 
         <!-- BOF MEDIA CENTER -->
-        <div class="jx-container jx-padding jx-white-bg">
+        <div id='hosts' class="jx-container jx-padding jx-white-bg">
 
             <div class="container">
 
@@ -329,12 +330,28 @@
                     </div>
                     <div class="jx-title jx-uppercase">赛制规则</div>
                     <div class="jx-subtitle">
-                    <p>通过BP筛选和现场/电话pitch, 将有15名团队进入决赛现场。决赛分半决赛和总决赛两场：</p>
-                    <div>1、半决赛：路演+Q&A</div>
-                    <p>十五支参赛团队晋级半决赛。按产业领域分三组，每组五进二，每个项目7分钟路演+3分钟Q&A。</p>
-                    <div>2、总决赛：模拟融资</div>
-                    <div>六支参赛团队晋级决赛。</div>
-                    <p>采取模拟融资pitch形式，每个团队10分钟经创业导师指导后的改进版路演+10分钟回答每位投资人的提问。每位投资人给出0-500万的虚拟投资额度，按照获得虚拟投资总额度高低排序。</p></div>
+                    <p>本次大赛，共分四轮</p>
+                    <div class='matchDiv'>
+                    <span class="matchSubTitle1">海 选</span>
+                    <span>通过商业计划书，筛选出50支创业团队进入第二轮。</span>
+                    </div>
+
+                    <div class='matchDiv'>
+                    <span class="matchSubTitle1">复 赛</span>
+                    <span>通过电话\视频路演，甄选出十五支创业团队进入总决赛。</span>
+                    </div>
+
+                    <div class='matchDiv'>
+                    <span class="matchSubTitle2">半决赛</span>
+                    <span>按照产业领域分组，通过7分钟的现场路演与问答环节，六支队伍将晋级决赛。</span>
+                    </div>
+
+                    <div class='matchDiv'>
+                    <span class="matchSubTitle2">总决赛</span>
+                    <span>三十分钟时间向X位投资人进行路演，投资人给出虚拟投资，依据融资数决出三队优胜。</span>
+                    </div>
+
+                    </div>
                 </div>
                 <!-- Section Title -->
                 <div class="row"></div>
@@ -355,18 +372,18 @@
                         <div class="jx-title-icon"><i class="line-icon icon-tag"></i></div>
                         <div class="jx-title-border right"></div>
                     </div>
-                    <div class="jx-title jx-uppercase">获奖福利</div>
-                    <div class="jx-subtitle"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div>
+                    <div class="jx-title jx-uppercase">优胜奖励</div>
+                    <div class="jx-subtitle" id="benefitSubtitle"><p class="largeSpacing">本届大赛获得优胜的团队，将获得由主办方提供的创业资源的优先使用权，并将获得对于创业者最为宝贵的与顶级风险投资机构合伙人面对面路演的机会。</p></div>
                 </div>
                 <!-- Section Title -->
-                <div class="row"></div>
+
                 <div class="jx-pricing-container">
-                <div class="jx-price-table">
+                <div class="jx-price-table benefitCenter">
                             <ul class="jx-pricing-wrapper1">
                                 <li data-type="standard" class="is-visible">
                                     <div class="one-third columns jx-price-item height370">
-                                    <div class="jx-price">冠军<span>一等奖</span></div>
-                                    <div class="jx-package-name jx-uppercase">Champion</div>
+                                    <div class="jx-price">优胜队伍</div>
+                                    <div class="jx-package-name jx-uppercase">Winners</div>
                                 </div>
                                 </li>
                                 <li data-type="vip" class="is-hidden">
@@ -374,14 +391,14 @@
                                     <div class="jx-package-name jx-uppercase"></div>
                                     <div class="jx-package-feature">
                                         <ul>
-                                            <li><i class="fa fa-chevron-right"></i>可免费进驻孵化器园区6个月</li>
-                                            <li><i class="fa fa-chevron-right"></i>获得企业注册配套服务</li>
+                                            <li><i class="fa fa-chevron-right"></i>36kr氪空间第六期优先入驻权</li>
+                                            <li><i class="fa fa-chevron-right"></i>顶级VC合伙人面对面路演机会</li>
+                                            <li><i class="fa fa-chevron-right"></i>南京白下高新园区孵化器免费进驻6个月</li>
+                                            <li><i class="fa fa-chevron-right"></i>免费获得企业注册配套服务</li>
                                             <li><i class="fa fa-chevron-right"></i>免费参加白下高新创业培训</li>
-                                            <li><i class="fa fa-chevron-right"></i>项目创始人可优惠租住园区人才公寓</li>
-                                            <li><i class="fa fa-chevron-right"></i>享受省，市其他相关奖励和扶持</li>
-                                            <li><i class="fa fa-chevron-right"></i>免费获得创业老师指导</li>
+                                            <li><i class="fa fa-chevron-right"></i>321人才工程100万元到200万元创业扶持基金</li>
+                                            <li><i class="fa fa-chevron-right"></i>2015香港国际创客节demo机会</li>
                                             <li><i class="fa fa-chevron-right"></i>接受顶尖媒体采访</li>
-                                            <li><i class="fa fa-chevron-right"></i>与海归创业者面对面交流</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -393,6 +410,7 @@
         </div>
         <!-- EOF Price Table -->
 
+         <div class="row"></div>
 
         <!-- Schedule Tab-->
         <div id="schedule" class="jx-container jx-padding jx-grey-bg">
@@ -1659,85 +1677,10 @@
 
 
                 <div class="row"></div>
-                <div class="row"></div>
-                <!-- Read More Button -->
 
             </div>
         </div>
 		<!-- EOF PROTFOLO -->
-
-        <!-- Testimonial -->
-        <div class="jx-container jx-padding jx-grey-bg">
-
-        	<div class="container-bg-icon"><i class="fa fa-quote-left"></i></div>
-
-        	<div class="container">
-
-            	<div class="jx-section-title-1">
-                    <div class="jx-pre-title jx-short-border">
-                        <div class="jx-title-border left"></div>
-                        <div class="jx-title-icon"><i class="line-icon icon-comment"></i></div>
-                        <div class="jx-title-border right"></div>
-                    </div>
-                    <div class="jx-title jx-uppercase">言论</div>
-                </div>
-                <!-- Section Title -->
-
-                <div class="row"></div>
-                <div class="row"></div>
-
-
-                <div class="jx-testimonial">
-
-                    <div class="flexslider">
-                    	<ul class="slides">
-                        	<li>
-                                <div class="jx-testimonial-item">
-                                	<div class="jx-testimonial-image"><img src="images/testimonial-1.jpg" alt=""></div>
-                                    <!-- Left item -->
-
-                                    <div class="jx-testimonial-details clearfix">
-                                    	<div class="jx-testimonial-icon"><i class="fa fa-quote-left"></i></div>
-                                        <div class="jx-testimonial-content">
-                                        	<div class="jx-testimonial-description"><p>不能约炮的APP，不会是一个好APP。</p></div>
-                                            <div class="jx-testimonial-name jx-uppercase">严伯军</div>
-                                            <div class="jx-testimonial-company">为艺科技公司CEO</div>
-                                        </div>
-                                        <!-- EOF testimonial content -->
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- Item 01 -->
-
-                            <li>
-                                <div class="jx-testimonial-item">
-                                	<div class="jx-testimonial-image"><img src="images/testimonial-2.jpg" alt=""></div>
-                                    <!-- Left item -->
-
-                                    <div class="jx-testimonial-details clearfix">
-                                    	<div class="jx-testimonial-icon"><i class="fa fa-quote-left"></i></div>
-                                        <div class="jx-testimonial-content">
-                                        	<div class="jx-testimonial-description"><p>严总说的对。</p></div>
-                                            <div class="jx-testimonial-name jx-uppercase">戴楚奇</div>
-                                            <div class="jx-testimonial-company">待业青年</div>
-                                        </div>
-                                        <!-- EOF testimonial content -->
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- Item 02 -->
-                        </ul>
-                    </div>
-
-                </div>
-                <!-- EOF Testimonial -->
-
-            </div>
-            <!-- EOF container -->
-
-        </div>
-        <!-- EOF Testimonial-->
-
 
         <!-- FAQ -->
         <div class="jx-container jx-padding">
@@ -1746,7 +1689,7 @@
                		<div class="jx-faq">
                 	<div class="jx-faq-head">
                     	<div class="jx-faq-title">FAQ</div>
-                        <div class="jx-faq-description"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p></div>
+                        <div class="jx-faq-description"><p>本届大赛开启报名以来，受到了来自社会各界的密切关注，我们同时也发现粉丝们存在着一些普遍对于大赛的问题，我们将最常见的问题总结如下：</p></div>
                     </div>
                     <!-- Title Section -->
 
@@ -1757,40 +1700,50 @@
                     <div id="accordion-13" data-accordion-group>
 
                         <div data-accordion class="head open">
-                            <div class="title" data-control>Q1: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor</div>
+                            <div class="title" data-control>Q1: 创业项目的方向是否有限制？是否一定要互联网创业？</div>
                             <!-- According Title -->
                             <div data-content>
-                            <div class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</div>
+                            <div class="description">现在绝大部分的创业都和互联网相关，当然本届大赛并不局限于纯互联网创业，硬件、新技术当然无限欢迎。</div>
                             </div>
                             <!-- According Content -->
                             <div class="accordion-border"></div>
                         </div>
 
                         <div data-accordion class="head">
-                            <div class="title" data-control>Q2: Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Null</div>
+                            <div class="title" data-control>Q2: 我们是一个大学生团队，我们有一个很好的想法，但是团队都没有工作经验，是否可以报名参加？</div>
                             <!-- According Title -->
                             <div data-content>
-                            <div class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</div>
+                            <div class="description">当然可以，我们欢迎所有背景的创业团队，年轻人往往更有创造力！</div>
                             </div>
                             <!-- According Content -->
                             <div class="accordion-border"></div>
                         </div>
 
                         <div data-accordion class="head">
-                            <div class="title" data-control>Q3: Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes</div>
+                            <div class="title" data-control>Q3: 我们这个项目目前只是一个idea，并没有产品是否可以参加本次大赛？</div>
                             <!-- According Title -->
                             <div data-content>
-                            <div class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</div>
+                            <div class="description">当然可以参与，我们非常期待被创新和革命性的idea洗礼。</div>
                             </div>
                             <!-- According Content -->
                             <div class="accordion-border"></div>
                         </div>
 
                         <div data-accordion class="head">
-                            <div class="title" data-control>Q4: Pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec</div>
+                            <div class="title" data-control>Q4: 第一次看到这样的创业大赛，不知道你们的专业性如何？</div>
                             <!-- According Title -->
                             <div data-content>
-                            <div class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</div>
+                            <div class="description">我们有超过30家最顶级的VC支持并且所有主办方都是业内最优秀的单位与机构，相应的获奖奖励政策也是真材实料。所以专业性会得到充分的保障。</div>
+                            </div>
+                            <!-- According Content -->
+                            <div class="accordion-border"></div>
+                        </div>
+
+                        <div data-accordion class="head">
+                            <div class="title" data-control>Q5: 请问本次大赛是否有设立奖金？</div>
+                            <!-- According Title -->
+                            <div data-content>
+                            <div class="description">本届大赛并未设立奖金，因为我们清楚地了解，作为真正的创业团队，奖金根本不足以成为吸引力，真正对创业者有帮助的是与顶级VC面对面的机会以及来自于行业内大拿的指导。所以并不设立奖学金是为了吸引真正的创业者参赛。</div>
                             </div>
                             <!-- According Content -->
                             <div class="accordion-border"></div>
@@ -1806,6 +1759,8 @@
             <!-- EOF Container -->
         </div>
         <!-- EOF FAQ -->
+
+        <div class="row"></div>
 
 
         <!-- Google Map -->

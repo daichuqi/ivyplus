@@ -685,15 +685,16 @@ Author:	Janxcode
   color:#fff;
 }
 .jx-price-table .jx-price-item .jx-price{
-  font-size:90px;
+  font-size:80px;
   font-family:oswald;
   text-align: center;
   padding:30px 20px 0px;
   margin-top:20px;
+  margin-bottom: 50px;
   line-height:110px;
 }
 .jx-price-table .jx-price-item .jx-price span{
-  font-size:30px;
+  font-size:26px;
 }
 .jx-price-table .jx-price-item .jx-package-name{
   font-size:40px;
