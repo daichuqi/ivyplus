@@ -108,6 +108,10 @@ Author:	Janxcode
   width: 800px;
 }
 
+#qrcode{
+  height: 150px;
+}
+
 * {
   font-family: 'Raleway',Arial,Helvetica,sans-serif;
   -moz-box-sizing: border-box;
@@ -1260,9 +1264,13 @@ dl dt {
 /* Subtitle */
 .jx-section-title-1 .jx-subtitle p{
   font-size:18px;
+  line-height: 200%;
   max-width: 1100px;
   margin:10px auto;
   margin-bottom: 40px;
+}
+.prewordtext p{
+  text-align: left;
 }
 
 /* Short Border ===========*/
