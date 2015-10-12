@@ -977,6 +977,11 @@ Author:	Janxcode
 		}
 
 
+		.jx-price-table .jx-price-item .jx-package-name {
+    display: none;
+}
+
+
 
 	/*---------------------------------------------------------------
 		[1.0 Footer ]
@@ -1526,9 +1531,13 @@ Author:	Janxcode
 
 
 
-  .centerMatchDiv{
-	  width: 400px;
+	.centerMatchDiv{
+	  width: 500px !important;
 	}
+
+			.jx-price-table .jx-price-item .jx-package-name {
+    display: none;
+}
 
 
 	/*---------------------------------------------------------------
@@ -1743,6 +1752,10 @@ Author:	Janxcode
 		[1.0 Footer ]
 	---------------------------------------------------------------*/
 
+			.jx-price-table .jx-price-item .jx-package-name {
+    display: none;
+}
+
 	.jx-footer-social li i {
 		width: 60px;
 		height: 60px;
@@ -1751,8 +1764,8 @@ Author:	Janxcode
 	}
 
 
-  .centerMatchDiv{
-	  width: 400px;
+	.centerMatchDiv{
+	  width: 500px !important;
 	}
 
 

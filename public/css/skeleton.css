@@ -67,6 +67,7 @@ polikin.ca
     .container .sixteen.columns                 { width: 1180px; }
 
     .container .one-third.columns                { width: 380px;}
+    .container .one-thirdplus.colums             { width: 380px; }
     .container .two-thirds.columns              { width: 780px; }
 	.container .one-fifth.columns                { width: 220px; }
 
@@ -82,6 +83,7 @@ polikin.ca
 	.container.with-sidebar .sixteen.columns       { width: 887px; }
 	.container.with-sidebar .one-half.columns      { width: 392.5px; }
 	.container.with-sidebar .one-third.columns     { width: 282px; }
+    .container.with-sidebar .one-thirdplus.colums  { width: 282px; }
 	.container.with-sidebar .one-fourth.columns    { width: 206.25px; }
 	.container.with-sidebar .two-fourths.columns   { width: 392.5px; }
 	.container.with-sidebar .three-fourths.columns { width: 598.75px; }
@@ -169,6 +171,7 @@ polikin.ca
         .container .one-third.columns                { width: 236px; }
         .container .two-thirds.columns               { width: 492px; }
 		.container .one-fifth.columns                { width: 133.6px; }
+        .container .one-thirdplus.colums             { width: 400px; }
 
         /* Offsets */
         .container .offset-by-one                   { padding-left: 48px; }
@@ -211,7 +214,7 @@ polikin.ca
         .container .fourteen.columns                { width: 820px; }
         .container .fifteen.columns                 { width: 880px; }
         .container .sixteen.columns                 { width: 940px; }
-
+        .container .one-thirdplus.columns            { width: 300px; }
         .container .one-third.columns                { width: 300px; }
         .container .two-thirds.columns               { width: 620px; }
 		.container .one-fifth.columns                { width: 172px; }
@@ -228,6 +231,7 @@ polikin.ca
 		.container.with-sidebar .sixteen.columns              			{ width: 640px; }
 		.container.with-sidebar .one-half.columns                		{ width: 310px; }
 		.container.with-sidebar .one-third.columns              		{ width: 200px; }
+        .container.with-sidebar .one-thirdplus.columns                  { width: 200px; }
 		.container.with-sidebar .one-fourth.columns                		{ width: 145px; }
 		.container.with-sidebar .two-fourths.columns                	{ width: 290px; }
 		.container.with-sidebar .three-fourths.columns                	{ width: 435px; }
@@ -258,6 +262,11 @@ polikin.ca
     /* Note: Design for a width of 320px */
 
     @media only screen and (max-width: 767px) {
+
+            .jx-price-table .jx-price-item .jx-package-name {
+    display: none;
+}
+
         .container { width: 300px; }
         .container .columns,
         .container .column { margin: 0; }
@@ -281,6 +290,7 @@ polikin.ca
         .container .sixteen.columns,
 		.container .one-fifth.columns,
         .container .one-third.columns,
+        .container .one-thirdplus.columns,
         .container .two-thirds.columns  { width: 300px; }
 
 		/* With Sidebar */
@@ -293,6 +303,7 @@ polikin.ca
 		.container.with-sidebar .sixteen.columns,
 		.container.with-sidebar .one-half.columns,
 		.container.with-sidebar .one-third.columns,
+        .container.with-sidebar .one-thirdplus.columns,
 		.container.with-sidebar .one-fourth.columns,
 		.container.with-sidebar .two-thirds.columns             { width: 300px; }
 
@@ -345,6 +356,7 @@ polikin.ca
         .container .sixteen.columns,
 		.container .one-fifth.columns,
         .container .one-third.columns,
+        .container .one-thirdplus.columns,
         .container .two-thirds.columns { width: 420px; }
 
 		/* With Sidebar */
@@ -356,6 +368,7 @@ polikin.ca
 		.container.with-sidebar .sixteen.columns,
 		.container.with-sidebar .one-half.columns,
 		.container.with-sidebar .one-third.columns,
+        .container.with-sidebar .one-thirdplus.columns,
 		.container.with-sidebar .one-fourth.columns,
 		.container.with-sidebar .two-thirds.columns               { width: 420px; }
     }
