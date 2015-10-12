@@ -1267,6 +1267,10 @@ header .jx-logo {
 }
 
 
+#logo{
+  height: 68px;
+}
+
 /* #Mobile Menu================================================== */
 .slicknav_menu {
   display: none;
