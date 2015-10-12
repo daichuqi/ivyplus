@@ -76,9 +76,13 @@ Author:	Janxcode
 
 .matchDiv{
   text-align: left !important;
-  margin-left: 20%;
-  width: 80%;
   margin-top: 10px;
+}
+
+.centerMatchDiv{
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .matchSubTitle1{

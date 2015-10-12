@@ -1526,6 +1526,11 @@ Author:	Janxcode
 
 
 
+  .centerMatchDiv{
+	  width: 400px;
+	}
+
+
 	/*---------------------------------------------------------------
 		[4.0 Speakers ]
 	---------------------------------------------------------------*/
@@ -1743,6 +1748,11 @@ Author:	Janxcode
 		height: 60px;
 		line-height: 62px;
 		font-size: 25px;
+	}
+
+
+  .centerMatchDiv{
+	  width: 400px;
 	}
 
 
