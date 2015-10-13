@@ -263,9 +263,14 @@ polikin.ca
 
     @media only screen and (max-width: 767px) {
 
-            .jx-price-table .jx-price-item .jx-package-name {
-    display: none;
-}
+       .jx-price-table .jx-price-item .jx-package-name {
+            display: none;
+        }
+
+        #logo{
+          margin-right:0px;
+          margin-left: 0px;
+        }
 
         .container { width: 300px; }
         .container .columns,

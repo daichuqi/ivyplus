@@ -74,6 +74,10 @@ Author:	Janxcode
   cursor: pointer;
 }
 
+.smallerText{
+  font-size: 12px;
+}
+
 .matchDiv{
   text-align: left !important;
   margin-top: 10px;
@@ -1326,7 +1330,6 @@ header .jx-logo {
   height: 68px;
   margin-right:70px;
   margin-left: -70px;
-
 }
 
 /* #Mobile Menu================================================== */
