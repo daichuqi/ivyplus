@@ -75,7 +75,14 @@ Author:	Janxcode
 }
 
 .smallerText{
-  font-size: 12px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.baoming{
+  background-color: #EE163A;
+  padding: 30px;
+  color: white;
 }
 
 .matchDiv{
@@ -115,7 +122,6 @@ Author:	Janxcode
 }
 
 .matchDeatil{
-  color: red;
   font-size: 15px;
 }
 
