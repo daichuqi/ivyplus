@@ -110,8 +110,17 @@ Author:	Janxcode
   width: 800px;
 }
 
+.matchDeatil{
+  color: red;
+  font-size: 15px;
+}
+
 #qrcode{
   height: 150px;
+}
+
+.boldText{
+  font-weight: bold;
 }
 
 * {
