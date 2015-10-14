@@ -145,7 +145,7 @@ a:hover,a:focus{
   margin-bottom: 20px;
   margin-right: auto;
   margin-left: auto;
-  width: 500px;
+  width: 450px;
 }
 
 .lightBoxHeight p{
@@ -154,7 +154,7 @@ a:hover,a:focus{
 
 
 .lightBoxImg img{
-  width: 500px;
+  width: 400px;
   margin-right: 20px;
 }
 
