@@ -140,6 +140,25 @@ a:hover,a:focus{
   font-weight: bold;
 }
 
+.lightBoxImg{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
+}
+
+.lightBoxHeight p{
+  padding: 20px;
+}
+
+
+.lightBoxImg img{
+  width: 500px;
+  margin-right: 20px;
+}
+
+
 * {
   font-family: 'Raleway',Arial,Helvetica,sans-serif;
   -moz-box-sizing: border-box;
