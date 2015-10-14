@@ -23,6 +23,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,500,300' rel='stylesheet' type='text/css'>
 
     <!-- Theme Style -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/theme-animate.css">
     <link rel="stylesheet" href="css/theme-elements.css">
@@ -41,6 +42,7 @@
 
     <!-- Responsive Theme -->
     <link rel="stylesheet" href="css/theme-responsive.css">
+
 
     <!-- Library Js -->
 	<script src="vendor/modernizr.js"></script>
@@ -178,6 +180,60 @@
     </div>
     <!-- BOF Slider -->
 
+
+        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">常青藤中国论坛</h4>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+                <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">南京市白下高新技术产业园区</h4>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+                <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">36氪(氪空间)</h4>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
     <!-- BOF Main Content -->
     <div role="main" class="main">
         <!-- BOF Services Box -->
@@ -205,6 +261,8 @@
         </div>
 		<!-- EOF Services Box -->
 
+
+
         <!-- BOF MEDIA CENTER -->
         <div id='hosts' class="jx-container jx-padding jx-white-bg">
 
@@ -229,7 +287,8 @@
                             <img src="images/media_center_1.jpg" alt="">
                             <div class="jx-image-overlay"></div>
                             <div class="jx-image-hover">
-                                <a href="#" class="jx-blog-more"><i class="line-icon icon-doc"></i></a>
+                                <a href="#" data-toggle="modal" data-target="#myModal1" class="jx-blog-more"><i class="line-icon icon-doc"></i></a>
+
                             </div>
                             <!-- Image Hover -->
                         </div>
@@ -250,7 +309,7 @@
                             <img src="images/media_center_2.jpg" alt="">
                             <div class="jx-image-overlay"></div>
                             <div class="jx-image-hover">
-                                <a href="#" class="jx-blog-more"><i class="line-icon icon-doc"></i></a>
+                                <a href="#" data-toggle="modal" data-target="#myModal2" class="jx-blog-more"><i class="line-icon icon-doc"></i></a>
                             </div>
                             <!-- Image Hover -->
                         </div>
@@ -272,7 +331,7 @@
                             <img src="images/media_center_3.jpg" alt="">
                             <div class="jx-image-overlay"></div>
                             <div class="jx-image-hover">
-                                <a href="#" class="jx-blog-more"><i class="line-icon icon-doc"></i></a>
+                                <a href="#" data-toggle="modal" data-target="#myModal3" class="jx-blog-more"><i class="line-icon icon-doc"></i></a>
                             </div>
                             <!-- Image Hover -->
                         </div>
@@ -1285,6 +1344,7 @@
     <script type="text/javascript" src="vendor/prettyPhoto/jquery.prettyPhoto.js"></script>
     <script type="text/javascript" src="vendor/flexslider/jquery.flexslider.js"></script>
     <script type="text/javascript" src="vendor/jquery.validate.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
     <!-- Theme Initializer -->

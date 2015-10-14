@@ -546,6 +546,7 @@ a:hover{
 }
 a:focus {
   color: #EE163A;
+  outline: none;
 }
 p a,p a:visited {
   line-height: inherit;
