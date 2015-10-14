@@ -51,9 +51,6 @@ Version: 		1.0
 			// Parallax
 			this.parallax();
 
-			//Counter
-			this.counter();
-
 			//Bouncy
 			this.bouncy();
 
@@ -65,23 +62,26 @@ Version: 		1.0
 		//Items on Ready
 		onReady: function(){
 
+
+
 			jQuery(document).ready(function(){
+
+				jQuery('.spinner').fadeOut(); // will first fade out the loading animation
+				jQuery('.loader').delay(200).fadeOut('slow'); // will fade out the white DIV that covers the website.
+				jQuery('body').delay(200).css({'overflow':'visible'});
 
 				$('#readMore1').on('click',function(){
 					$('.moreText1').removeClass('moreText1');
 					$('#readMore1').addClass('moreText1');
 				})
-
 				$('#readMore2').on('click',function(){
 					$('.moreText2').removeClass('moreText2');
 					$('#readMore2').addClass('moreText2');
 				})
-
 				$('#readMore3').on('click',function(){
 					$('.moreText3').removeClass('moreText3');
 					$('#readMore3').addClass('moreText3');
 				})
-
 				$('#readMore4').on('click',function(){
 					if($('#readMore4').text() === 'Read More'){
 						$('.text4').removeClass('moreText4');
@@ -91,62 +91,9 @@ Version: 		1.0
 						$('.text4').addClass('moreText4');
 						$('#readMore4').text('Read More');
 						console.log('hide state')
-
 					}
 				})
 
-
-				/*Point of interest */
-				//open interest point description
-				jQuery('.jx-single-point').children('a').on('click', function(){
-					var selectedPoint = jQuery(this).parent('li');
-					if( selectedPoint.hasClass('is-open') ) {
-						selectedPoint.removeClass('is-open').addClass('visited');
-					} else {
-						selectedPoint.addClass('is-open').siblings('.jx-single-point.is-open').removeClass('is-open').addClass('visited');
-					}
-				});
-				//close interest point description
-				jQuery('.jx-close-info').on('click', function(event){
-					event.preventDefault();
-					jQuery(this).parents('.jx-single-point').eq(0).removeClass('is-open').addClass('visited');
-				});
-
-
-				jQuery('#jx-counter-1').circliful();
-				jQuery('#jx-counter-2').circliful();
-				jQuery('#jx-counter-3').circliful();
-				jQuery('#jx-counter-4').circliful();
-
-
-				//Count Go up
-				jQuery('.jx-counter-number').animate({marginTop:0},1000,'swing');
-				jQuery('#count-go-up-1 span').counterUp({
-					delay: 10,
-					time: 1000
-				});
-
-				jQuery('#count-go-up-2 span').counterUp({
-					delay: 20,
-					time: 1000
-				});
-
-				jQuery('#count-go-up-3 span').counterUp({
-					delay: 30,
-					time: 1000
-				});
-
-
-				//Count Down
-				if (jQuery(".countdown").length > 0){
-					jQuery(".countdown").jCounter({
-						date: "1 january 2016 12:00:00",
-						timezone: "Europe/Bucharest",
-						format: "dd:hh:mm:ss",
-						twoDigits: 'on',
-						fallback: function() { console.log("Counter finished!") }
-					});
-				}
 
 				//Mobile Menu
 				jQuery('.slicknav_nav li.col > ul').children().unwrap();
@@ -176,7 +123,6 @@ Version: 		1.0
 						return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
 					}
 				};
-
 				if( isMobile.any() ) {
 				   jQuery('.jx-header').removeClass('jx-sticky');
 				}
@@ -189,8 +135,6 @@ Version: 		1.0
 					  if(jQuery(this).find("a").attr("href") == pgurl || jQuery(this).find("a").attr("href") == '' )
 					  jQuery(this).addClass("active");
 				 });
-
-
 		},
 		//Items on windows load
 		onLoad: function(){
@@ -198,9 +142,7 @@ Version: 		1.0
 			jQuery(window).on("load",function(){
 
 				"use strict";
-				jQuery('.spinner').fadeOut(); // will first fade out the loading animation
-				jQuery('.loader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-				jQuery('body').delay(350).css({'overflow':'visible'});
+
 
 				[].slice.call(document.querySelectorAll('img.tilt-effect')).forEach(function(img) {
 					new TiltFx(img, JSON.parse(img.getAttribute('data-tilt-options')));
@@ -504,15 +446,6 @@ Version: 		1.0
 		parallax: function(){
 
 		jQuery('.parallax,.jx-page-header-parallax').scrolly({bgParallax: true});
-
-		},
-
-		counter: function(){
-
-		jQuery(".jx-count-up").counterUp({
-                delay: 10,
-                time: 1000
-            });
 
 		},
 
