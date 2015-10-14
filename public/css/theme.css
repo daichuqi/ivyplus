@@ -1304,22 +1304,19 @@ dl dt {
 }
 
 /* jx-light ======*/
-.jx-section-title-1.jx-light .jx-title-icon i{
-  color:#fff;
-}
 
 .jx-section-title-1.jx-light .jx-title-border{
-  background:#fff;
+  background:#000;
 }
 
 /* Title */
 .jx-section-title-1.jx-light .jx-title{
-  color:#fff;
+  color:#000;
 }
 
 /* Subtitle */
 .jx-section-title-1.jx-light .jx-subtitle p{
-  color:#fff;
+  color:#000;
 }
 
 
