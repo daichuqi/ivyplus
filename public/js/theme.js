@@ -82,6 +82,20 @@ Version: 		1.0
 					$('#readMore3').addClass('moreText3');
 				})
 
+				$('#readMore4').on('click',function(){
+					if($('#readMore4').text() === 'Read More'){
+						$('.text4').removeClass('moreText4');
+						$('#readMore4').text('Hide');
+						console.log('read more state')
+					}else{
+						$('.text4').addClass('moreText4');
+						$('#readMore4').text('Read More');
+						console.log('hide state')
+
+					}
+				})
+
+
 				/*Point of interest */
 				//open interest point description
 				jQuery('.jx-single-point').children('a').on('click', function(){

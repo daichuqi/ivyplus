@@ -56,6 +56,9 @@ a:hover,a:focus{
 .moreText3{
   display: none;
 }
+.moreText4{
+  display: none;
+}
 #readMore1{
   color: red;
 }
@@ -63,6 +66,9 @@ a:hover,a:focus{
   color: red;
 }
 #readMore3{
+  color: red;
+}
+#readMore4{
   color: red;
 }
 #readMore1:hover{
@@ -76,6 +82,11 @@ a:hover,a:focus{
   cursor: pointer;
 }
 #readMore3:hover{
+    color: white;
+  background-color: darkred;
+  cursor: pointer;
+}
+#readMore4:hover{
     color: white;
   background-color: darkred;
   cursor: pointer;
