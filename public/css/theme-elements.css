@@ -610,6 +610,10 @@ Author:	Janxcode
 
 .jx-map{
 	height:600px;
+  background-image: url(../images/nanjing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 /*---------------------------------------------------------------
 [10.0 Testimonials ]
