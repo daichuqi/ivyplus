@@ -162,7 +162,7 @@ Version: 		1.0
 
 				jQuery("#mainpage").load(function() {
 					  	jQuery('.spinner').fadeOut(); // will first fade out the loading animation
-							jQuery('.loader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+							jQuery('.loader').delay(450).fadeOut('slow'); // will fade out the white DIV that covers the website.
 							jQuery('body').delay(350).css({'overflow':'visible'});
 				});
 		},
@@ -190,7 +190,7 @@ Version: 		1.0
 					animation: "slide",
 					controlNav: true,
 					directionNav:false,
-					slideshowSpeed:"8000",
+					slideshowSpeed:"5000",
 					useCSS: false,
 					itemWidth: 191,
 					minItems: 2,
@@ -201,8 +201,6 @@ Version: 		1.0
 				});
 
 				jQuery('.jx-parallax-fullwidth').css({'height':((jQuery(window).height()))+'px'});
-
-
 				getWidthAndHeight();
 
 				function getWidthAndHeight (){
