@@ -160,11 +160,13 @@ Version: 		1.0
 					  jQuery(this).addClass("active");
 				 });
 
-
- 				jQuery('.spinner').fadeOut(); // will first fade out the loading animation
-				jQuery('.loader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-				jQuery('body').delay(350).css({'overflow':'visible'});
-
+				(function(){
+					$('.mainpage').on("load",function(){
+			 				jQuery('.spinner').fadeOut(); // will first fade out the loading animation
+							jQuery('.loader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+							jQuery('body').delay(350).css({'overflow':'visible'});
+					})
+				})()
 
 		},
 		//Items on windows load
