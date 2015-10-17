@@ -118,36 +118,6 @@ Version: 		1.0
 				jQuery('#jx-counter-3').circliful();
 				jQuery('#jx-counter-4').circliful();
 
-
-				//Count Go up
-				jQuery('.jx-counter-number').animate({marginTop:0},1000,'swing');
-				jQuery('#count-go-up-1 span').counterUp({
-					delay: 10,
-					time: 1000
-				});
-
-				jQuery('#count-go-up-2 span').counterUp({
-					delay: 20,
-					time: 1000
-				});
-
-				jQuery('#count-go-up-3 span').counterUp({
-					delay: 30,
-					time: 1000
-				});
-
-
-				//Count Down
-				if (jQuery(".countdown").length > 0){
-					jQuery(".countdown").jCounter({
-						date: "1 january 2016 12:00:00",
-						timezone: "Europe/Bucharest",
-						format: "dd:hh:mm:ss",
-						twoDigits: 'on',
-						fallback: function() { console.log("Counter finished!") }
-					});
-				}
-
 				//Mobile Menu
 				jQuery('.slicknav_nav li.col > ul').children().unwrap();
 				jQuery('.slicknav_nav li.col').children().unwrap();
@@ -191,6 +161,11 @@ Version: 		1.0
 				 });
 
 
+ 				jQuery('.spinner').fadeOut(); // will first fade out the loading animation
+				jQuery('.loader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+				jQuery('body').delay(350).css({'overflow':'visible'});
+
+
 		},
 		//Items on windows load
 		onLoad: function(){
@@ -198,9 +173,7 @@ Version: 		1.0
 			jQuery(window).on("load",function(){
 
 				"use strict";
-				jQuery('.spinner').fadeOut(); // will first fade out the loading animation
-				jQuery('.loader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-				jQuery('body').delay(350).css({'overflow':'visible'});
+
 
 				[].slice.call(document.querySelectorAll('img.tilt-effect')).forEach(function(img) {
 					new TiltFx(img, JSON.parse(img.getAttribute('data-tilt-options')));
@@ -211,18 +184,6 @@ Version: 		1.0
 				/* Page Scroll to id fn call */
 				jQuery("a[href='#top'],.main-menu li a").mPageScroll2id({
 
-				});
-
-				//Main Slider
-				jQuery('.jx-main-slider .flexslider').flexslider({
-					animation: "slide",
-					controlNav: true,
-					directionNav:true,
-					slideshowSpeed:"8000",
-					minItems: 1,
-					maxItems: 1,
-					prevText:'',
-					nextText:''
 				});
 
 				//Sponsors Logo
@@ -239,17 +200,6 @@ Version: 		1.0
 					nextText:''
 
 				});
-
-				//Testimonial #1
-				jQuery('.jx-testimonial .flexslider').flexslider({
-					animation: "slide",
-					controlNav: true,
-					directionNav:false,
-					slideshowSpeed:"8000",
-					prevText:'',
-					nextText:''
-				});
-
 
 				jQuery('.jx-parallax-fullwidth').css({'height':((jQuery(window).height()))+'px'});
 
