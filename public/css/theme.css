@@ -27,6 +27,8 @@ img#mainpage{
   width: 100%;
   height: 100%;
   position: absolute;
+  min-width: 1000px;
+  min-height: 700px;
 }
 
 a:hover,a:focus{
@@ -162,7 +164,7 @@ a:hover,a:focus{
   margin-bottom: 20px;
   margin-right: auto;
   margin-left: auto;
-  width: 450px;
+  width: 100%;
 }
 
 .lightBoxHeight p{
@@ -171,7 +173,7 @@ a:hover,a:focus{
 
 
 .lightBoxImg img{
-  width: 400px;
+  width: 100%;
   margin-right: 20px;
 }
 
