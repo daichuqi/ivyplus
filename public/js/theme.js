@@ -159,19 +159,16 @@ Version: 		1.0
 					  if(jQuery(this).find("a").attr("href") == pgurl || jQuery(this).find("a").attr("href") == '' )
 					  jQuery(this).addClass("active");
 				 });
-
-				jQuery("#mainpage").load(function() {
-					  	jQuery('.spinner').fadeOut(); // will first fade out the loading animation
-							jQuery('.loader').delay(450).fadeOut('slow'); // will fade out the white DIV that covers the website.
-							jQuery('body').delay(350).css({'overflow':'visible'});
-				});
 		},
 		//Items on windows load
 		onLoad: function(){
 
 			jQuery(window).on("load",function(){
-
 				"use strict";
+
+					jQuery('.spinner').fadeOut(); // will first fade out the loading animation
+					jQuery('.loader').delay(450).fadeOut('slow'); // will fade out the white DIV that covers the website.
+					jQuery('body').delay(350).css({'overflow':'visible'});
 
 
 				[].slice.call(document.querySelectorAll('img.tilt-effect')).forEach(function(img) {

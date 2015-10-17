@@ -10,12 +10,10 @@
  */
 (function($) {
     $.fn.appear = function(fn, options) {
-
         var settings = $.extend({
 
             //arbitrary data to pass to fn
             data: undefined,
-
             //call fn only on the first appear?
             one: true,
 
