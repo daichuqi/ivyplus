@@ -611,7 +611,7 @@ Author:	Janxcode
 .jx-map{
 	height:600px;
   width: 100%;
-  min-width: 1200px;
+  object-fit: cover;
 }
 /*---------------------------------------------------------------
 [10.0 Testimonials ]
