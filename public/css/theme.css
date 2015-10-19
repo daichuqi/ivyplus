@@ -29,7 +29,7 @@ img#mainpage {
     position: absolute;
     object-fit: cover;
     object-position: center;
-    min-height: 670px;
+    min-height: 600px;
 }
 
 
