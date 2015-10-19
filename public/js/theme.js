@@ -51,9 +51,6 @@ Version: 		1.0
 			// Parallax
 			this.parallax();
 
-			//Counter
-			this.counter();
-
 			//Bouncy
 			this.bouncy();
 
@@ -436,27 +433,10 @@ Version: 		1.0
 					modal: false, /* If set to true, only the close button will close the window */
 					overlay_gallery: true
 				};
-
-
-					jQuery('a[href$=jpg], a[href$=JPG], a[href$=jpeg], a[href$=JPEG], a[href$=png], a[href$=gif], a[href$=bmp]:has(img),a[class^="prettyPhoto"],a[data-rel^="prettyPhoto"]').prettyPhoto(prettyPhoto_parameters);
-
-
-				jQuery('a[class^="prettyPhoto"],a[data-rel^="prettyPhoto"]').prettyPhoto(prettyPhoto_parameters); //prettyPhoto_parameters
-
 		},
 
 		parallax: function(){
-
 		jQuery('.parallax,.jx-page-header-parallax').scrolly({bgParallax: true});
-
-		},
-
-		counter: function(){
-
-		jQuery(".jx-count-up").counterUp({
-                delay: 10,
-                time: 1000
-            });
 
 		},
 
