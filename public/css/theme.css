@@ -163,10 +163,6 @@ a:hover,a:focus{
 }
 
 .lightBoxImg{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: auto;
-  margin-left: auto;
   width: 100%;
 }
 
@@ -174,10 +170,10 @@ a:hover,a:focus{
   padding: 20px;
 }
 
-
 .lightBoxImg img{
-  width: 100%;
-  margin-right: 20px;
+    width: 50%;
+    float: left;
+    margin: 5%;
 }
 
 

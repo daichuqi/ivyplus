@@ -263,6 +263,10 @@ polikin.ca
 
     @media only screen and (max-width: 767px) {
 
+        .lightBoxImg img {
+            width: 80%;
+        }
+
        .jx-price-table .jx-price-item .jx-package-name {
             display: none;
         }
