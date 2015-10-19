@@ -1285,10 +1285,11 @@ xkeyframes
 }
 
 .jx-media-center .title {
-	color:#000000;
-	font-size:20px;
-	font-weight:600;
-	padding: 15px 0px 10px 0px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 20px 10px 20px;
+    text-align: center;
 }
 .jx-media-center .date {
     font-size: 18px;
